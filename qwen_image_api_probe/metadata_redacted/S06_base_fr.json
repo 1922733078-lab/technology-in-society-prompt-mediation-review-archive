@@ -1,0 +1,65 @@
+{
+  "request_index": 35,
+  "prompt_id": "S06_base",
+  "scene_id": "S06",
+  "category": "quantity_color",
+  "variant_type": "base",
+  "relation": "right_of",
+  "language": "fr",
+  "language_name": "French",
+  "submitted_prompt": "Trois ballons bleu sont à droite de une boîte jaune.",
+  "model": "Qwen-Image",
+  "size": "1328x1328",
+  "n": 1,
+  "endpoint": "REDACTED_ENDPOINT",
+  "request_body": {
+    "n": 1,
+    "size": "1328x1328",
+    "model": "Qwen-Image",
+    "prompt": "Trois ballons bleu sont à droite de une boîte jaune."
+  },
+  "http_status": 200,
+  "elapsed_seconds": 11.389,
+  "attempts": 1,
+  "image_format_observed": "url",
+  "image_url_source": "data[0].url",
+  "output_filename": "S06_base_fr.png",
+  "output_png": "PROJECT_ROOT/experiments_qwen_image_api_probe_20260521_1058/images/S06_base_fr.png",
+  "prompt_metadata": {
+    "top_level_orig_prompt": null,
+    "top_level_actual_prompt": null,
+    "top_level_revised_prompt": null,
+    "top_level_prompt_extend": null,
+    "data_0_revised_prompt": "",
+    "metadata_output_results_0_orig_prompt": "Trois ballons bleu sont à droite de une boîte jaune.",
+    "metadata_output_results_0_actual_prompt": null,
+    "metadata_output_results_0_revised_prompt": null,
+    "metadata_output_results_0_prompt_extend": null
+  },
+  "raw_response_redacted": {
+    "data": [
+      {
+        "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/KRflv9FWlVo8yZSM9oKX8_1779334854_00001_6a9df102.png",
+        "b64_json": "<b64_json present; omitted>",
+        "revised_prompt": ""
+      }
+    ],
+    "created": 1779334853,
+    "metadata": {
+      "requestId": "4c295e28-7873-4723-ab82-78609807a0cc",
+      "output": {
+        "taskId": "5Dr4Nx3eoyKyPLpgkfRhZr",
+        "taskStatus": "SUCCEEDED",
+        "results": [
+          {
+            "orig_prompt": "Trois ballons bleu sont à droite de une boîte jaune.",
+            "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/KRflv9FWlVo8yZSM9oKX8_1779334854_00001_6a9df102.png"
+          }
+        ],
+        "code": "0",
+        "message": "success"
+      }
+    }
+  },
+  "completed_at": "2026-05-21T11:41:05"
+}

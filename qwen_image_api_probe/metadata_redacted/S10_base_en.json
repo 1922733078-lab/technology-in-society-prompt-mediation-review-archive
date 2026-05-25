@@ -1,0 +1,65 @@
+{
+  "request_index": 56,
+  "prompt_id": "S10_base",
+  "scene_id": "S10",
+  "category": "negation",
+  "variant_type": "base",
+  "relation": "above",
+  "language": "en",
+  "language_name": "English",
+  "submitted_prompt": "A red umbrella is above a brown bench, and there is no car.",
+  "model": "Qwen-Image",
+  "size": "1328x1328",
+  "n": 1,
+  "endpoint": "REDACTED_ENDPOINT",
+  "request_body": {
+    "n": 1,
+    "size": "1328x1328",
+    "model": "Qwen-Image",
+    "prompt": "A red umbrella is above a brown bench, and there is no car."
+  },
+  "http_status": 200,
+  "elapsed_seconds": 11.386,
+  "attempts": 1,
+  "image_format_observed": "url",
+  "image_url_source": "data[0].url",
+  "output_filename": "S10_base_en.png",
+  "output_png": "PROJECT_ROOT/experiments_qwen_image_api_probe_20260521_1058/images/S10_base_en.png",
+  "prompt_metadata": {
+    "top_level_orig_prompt": null,
+    "top_level_actual_prompt": null,
+    "top_level_revised_prompt": null,
+    "top_level_prompt_extend": null,
+    "data_0_revised_prompt": "",
+    "metadata_output_results_0_orig_prompt": "A red umbrella is above a brown bench, and there is no car.",
+    "metadata_output_results_0_actual_prompt": null,
+    "metadata_output_results_0_revised_prompt": null,
+    "metadata_output_results_0_prompt_extend": null
+  },
+  "raw_response_redacted": {
+    "data": [
+      {
+        "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/7TXpGOQsjkxOxEntZFQZGz_1779335179_00001_626f1ce7.png",
+        "b64_json": "<b64_json present; omitted>",
+        "revised_prompt": ""
+      }
+    ],
+    "created": 1779335178,
+    "metadata": {
+      "requestId": "a6b31403-e949-4d54-9caa-e2f7f4176df0",
+      "output": {
+        "taskId": "mrhvdHZXDhfLBtcFIC64H",
+        "taskStatus": "SUCCEEDED",
+        "results": [
+          {
+            "orig_prompt": "A red umbrella is above a brown bench, and there is no car.",
+            "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/7TXpGOQsjkxOxEntZFQZGz_1779335179_00001_626f1ce7.png"
+          }
+        ],
+        "code": "0",
+        "message": "success"
+      }
+    }
+  },
+  "completed_at": "2026-05-21T11:46:30"
+}

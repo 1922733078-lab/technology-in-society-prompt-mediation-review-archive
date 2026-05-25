@@ -1,0 +1,3 @@
+model_key,language_order_high_to_low,top_language,top_drift
+absolutereality_v16,Hindi > Chinese > French > Spanish,Hindi,0.7883364410663453
+dreamshaper8,Hindi > Chinese > Spanish > French,Hindi,0.7899720039170921

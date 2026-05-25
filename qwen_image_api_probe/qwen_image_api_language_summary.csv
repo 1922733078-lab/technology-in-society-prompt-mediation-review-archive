@@ -1,0 +1,6 @@
+﻿language,language_name,records,has_orig_prompt,has_actual_prompt,has_revised_prompt_field,has_nonempty_revised_prompt,has_prompt_extend,no_exposed_rewrite_observed,mean_elapsed_seconds
+en,English,12,12,0,12,0,0,12,12.781
+zh,Chinese,12,12,0,12,0,0,12,11.45
+hi,Hindi,12,12,0,12,0,0,12,12.344
+es,Spanish,12,12,0,12,0,0,12,11.466
+fr,French,12,12,0,12,0,0,12,11.736

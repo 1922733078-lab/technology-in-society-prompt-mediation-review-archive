@@ -1,0 +1,6 @@
+language,language_name,records,has_revised_prompt,english_like_revised_prompts,mean_prompt_chars,mean_revised_prompt_chars,mean_char_expansion_ratio,composition_specification,clean_background,realism_or_stylization,negative_no_text,object_relation_clarification,detail_expansion
+en,English,12,12,12,48.08,187.33,3.952,12,6,10,3,12,12
+zh,Chinese,12,12,9,14.92,162.58,11.169,12,8,12,3,12,12
+hi,Hindi,12,12,11,44.5,173.08,3.958,12,5,12,4,12,12
+es,Spanish,12,12,10,56.67,149.75,2.669,12,10,12,5,12,12
+fr,French,12,12,11,55.67,159,2.943,12,7,12,4,12,12

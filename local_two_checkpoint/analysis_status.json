@@ -1,0 +1,10 @@
+{
+  "status": "analysis_complete",
+  "outputs": {
+    "all_generation_eval_with_tokens": "PROJECT_ROOT/experiments_supplementary_models_20260520_1717/results/all_generation_eval_with_tokens.csv",
+    "image_features": "PROJECT_ROOT/experiments_supplementary_models_20260520_1717/results/image_features.csv",
+    "visual_drift_to_english": "PROJECT_ROOT/experiments_supplementary_models_20260520_1717/results/visual_drift_to_english.csv",
+    "model_language_summary": "PROJECT_ROOT/experiments_supplementary_models_20260520_1717/results/model_language_summary.csv",
+    "directional_comparison": "PROJECT_ROOT/experiments_supplementary_models_20260520_1717/results/directional_comparison_vs_original_anything_subset.csv"
+  }
+}

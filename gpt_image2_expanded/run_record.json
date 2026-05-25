@@ -1,0 +1,50 @@
+{
+  "run_id": "experiments_gpt_image2_expanded_20260520_1713",
+  "created_at": "2026-05-20T18:24:30+08:00",
+  "model": "gpt-image-2",
+  "size": "1024x1024",
+  "quality": "medium",
+  "source_prompt_inventory": "PROJECT_ROOT/实验/多语种_完整_运行_20260520_093932/提示词数据/第1267份_多语种_提示词_清单.json",
+  "existing_probe_reference": "PROJECT_ROOT/实验/图像二号_多语种_探测_20260520_100011_资料",
+  "design": "12 representative prompt units across five languages: 10 base scene prompts plus quantity-shift and explicit-negation variants",
+  "representative_prompt_ids": [
+    "S01_base",
+    "S02_base",
+    "S03_base",
+    "S04_base",
+    "S05_base",
+    "S05_quantity_shift",
+    "S06_base",
+    "S07_base",
+    "S08_base",
+    "S09_base",
+    "S09_negation_rephrase",
+    "S10_base"
+  ],
+  "languages": [
+    {
+      "code": "en",
+      "name": "English"
+    },
+    {
+      "code": "zh",
+      "name": "Chinese"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi"
+    },
+    {
+      "code": "es",
+      "name": "Spanish"
+    },
+    {
+      "code": "fr",
+      "name": "French"
+    }
+  ],
+  "request_count": 60,
+  "success_count": 60,
+  "failure_count": 0,
+  "api_key_logged": false
+}

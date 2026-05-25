@@ -1,0 +1,7 @@
+﻿field,count,rate
+has_orig_prompt,60,1.0
+has_actual_prompt,0,0.0
+has_revised_prompt_field,60,1.0
+has_nonempty_revised_prompt,0,0.0
+has_prompt_extend,0,0.0
+no_exposed_rewrite_observed,60,1.0

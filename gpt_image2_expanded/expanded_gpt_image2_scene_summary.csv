@@ -1,0 +1,13 @@
+prompt_id,scene_id,category,variant_type,relation,records,has_revised_prompt,english_like_revised_prompts,mean_char_expansion_ratio,negative_no_text,object_relation_clarification
+S01_base,S01,spatial_color,base,left_of,5,5,4,5.204,0,5
+S02_base,S02,spatial_color,base,right_of,5,5,5,5.421,1,5
+S03_base,S03,spatial_color,base,above,5,5,4,5.638,0,5
+S04_base,S04,spatial_color,base,below,5,5,4,3.828,0,5
+S05_base,S05,quantity_color,base,left_of,5,5,5,6.401,1,5
+S05_quantity_shift,S05,quantity_color,quantity_shift,left_of,5,5,5,4.715,0,5
+S06_base,S06,quantity_color,base,right_of,5,5,5,4.893,3,5
+S07_base,S07,attribute_binding,base,left_of,5,5,3,3.66,0,5
+S08_base,S08,attribute_binding,base,above,5,5,5,7.008,0,5
+S09_base,S09,negation,base,none,5,5,4,4.274,5,5
+S09_negation_rephrase,S09,negation,negation_rephrase,none,5,5,5,4.836,4,5
+S10_base,S10,negation,base,above,5,5,4,3.379,5,5

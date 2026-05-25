@@ -1,0 +1,65 @@
+{
+  "request_index": 27,
+  "prompt_id": "S05_quantity_shift",
+  "scene_id": "S05",
+  "category": "quantity_color",
+  "variant_type": "quantity_shift",
+  "relation": "left_of",
+  "language": "zh",
+  "language_name": "Chinese",
+  "submitted_prompt": "一个红色苹果在一个绿色梨的左边。",
+  "model": "Qwen-Image",
+  "size": "1328x1328",
+  "n": 1,
+  "endpoint": "REDACTED_ENDPOINT",
+  "request_body": {
+    "n": 1,
+    "size": "1328x1328",
+    "model": "Qwen-Image",
+    "prompt": "一个红色苹果在一个绿色梨的左边。"
+  },
+  "http_status": 200,
+  "elapsed_seconds": 11.817,
+  "attempts": 1,
+  "image_format_observed": "url",
+  "image_url_source": "data[0].url",
+  "output_filename": "S05_quantity_shift_zh.png",
+  "output_png": "PROJECT_ROOT/experiments_qwen_image_api_probe_20260521_1058/images/S05_quantity_shift_zh.png",
+  "prompt_metadata": {
+    "top_level_orig_prompt": null,
+    "top_level_actual_prompt": null,
+    "top_level_revised_prompt": null,
+    "top_level_prompt_extend": null,
+    "data_0_revised_prompt": "",
+    "metadata_output_results_0_orig_prompt": "一个红色苹果在一个绿色梨的左边。",
+    "metadata_output_results_0_actual_prompt": null,
+    "metadata_output_results_0_revised_prompt": null,
+    "metadata_output_results_0_prompt_extend": null
+  },
+  "raw_response_redacted": {
+    "data": [
+      {
+        "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/3dcG2x2zEUo2aCXZFRBPFT_1779334713_00001_34376476.png",
+        "b64_json": "<b64_json present; omitted>",
+        "revised_prompt": ""
+      }
+    ],
+    "created": 1779334712,
+    "metadata": {
+      "requestId": "5377f790-2aed-4ffb-a393-c30fcc650b69",
+      "output": {
+        "taskId": "4bBWEVZtMSB8ScsGE9QkWD",
+        "taskStatus": "SUCCEEDED",
+        "results": [
+          {
+            "orig_prompt": "一个红色苹果在一个绿色梨的左边。",
+            "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/3dcG2x2zEUo2aCXZFRBPFT_1779334713_00001_34376476.png"
+          }
+        ],
+        "code": "0",
+        "message": "success"
+      }
+    }
+  },
+  "completed_at": "2026-05-21T11:38:45"
+}

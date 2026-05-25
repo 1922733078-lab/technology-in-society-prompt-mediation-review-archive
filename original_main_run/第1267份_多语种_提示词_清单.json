@@ -1,0 +1,58 @@
+{
+  "run_dir": "REDACTED_PROJECT_ROOT/experiments/multilingual_full_run_20260520_093932",
+  "language_basis": "Top total speakers language set requested by user, citing Ethnologue/Britannica framing.",
+  "languages": [
+    {
+      "code": "zh",
+      "name": "Chinese"
+    },
+    {
+      "code": "en",
+      "name": "English"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi"
+    },
+    {
+      "code": "es",
+      "name": "Spanish"
+    },
+    {
+      "code": "fr",
+      "name": "French"
+    }
+  ],
+  "records_per_language": 44,
+  "source_files": {
+    "zh": "REDACTED_PROJECT_ROOT/data/chinese_prompt_robustness_prompts.json",
+    "en": "REDACTED_PROJECT_ROOT/data/chinese_prompt_robustness_prompts_en_baseline.json"
+  },
+  "prompt_files": {
+    "zh": {
+      "json": "REDACTED_PROJECT_ROOT/prompt_data/prompts_zh.json",
+      "csv": "REDACTED_PROJECT_ROOT/prompt_data/prompts_zh.csv"
+    },
+    "en": {
+      "json": "REDACTED_PROJECT_ROOT/prompt_data/prompts_en.json",
+      "csv": "REDACTED_PROJECT_ROOT/prompt_data/prompts_en.csv"
+    },
+    "hi": {
+      "json": "REDACTED_PROJECT_ROOT/prompt_data/prompts_hi.json",
+      "csv": "REDACTED_PROJECT_ROOT/prompt_data/prompts_hi.csv"
+    },
+    "es": {
+      "json": "REDACTED_PROJECT_ROOT/prompt_data/prompts_es.json",
+      "csv": "REDACTED_PROJECT_ROOT/prompt_data/prompts_es.csv"
+    },
+    "fr": {
+      "json": "REDACTED_PROJECT_ROOT/prompt_data/prompts_fr.json",
+      "csv": "REDACTED_PROJECT_ROOT/prompt_data/prompts_fr.csv"
+    }
+  },
+  "notes": [
+    "All languages preserve prompt_id, scene_id, category, variant_type, relation, expected_objects and absent_objects.",
+    "The prompt_zh field is intentionally populated with the language-specific prompt text so the existing ComfyUI runner can be reused without changing project scripts.",
+    "French is included in the main language set; Arabic is not generated for the main experiment."
+  ]
+}

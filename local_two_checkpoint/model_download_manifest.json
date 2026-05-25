@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-05-20T17:51:05",
+  "model_dir": "MODEL_DIR",
+  "records": [
+    {
+      "model_key": "dreamshaper8",
+      "modelscope_id": "Yntec/Dreamshaper8",
+      "source_file": "dreamshaper_8.safetensors",
+      "dest_name": "DreamShaper8_modelscope_Yntec_dreamshaper_8.safetensors",
+      "expected_size": 2132625894,
+      "expected_sha256": "879db523c30d3b9017143d56705015e15a2cb5628762c11d086fed9538abd7fd",
+      "license": "creativeml-openrail-m",
+      "dest_path": "MODEL_DIR/DreamShaper8_modelscope_Yntec_dreamshaper_8.safetensors",
+      "preexisting_size": 2132625894,
+      "preexisting_sha256": "879db523c30d3b9017143d56705015e15a2cb5628762c11d086fed9538abd7fd",
+      "status": "already_present_verified"
+    },
+    {
+      "model_key": "absolutereality_v16",
+      "modelscope_id": "Yntec/AbsoluteReality",
+      "source_file": "absolutereality_v16.safetensors",
+      "dest_name": "AbsoluteReality_v16_modelscope_Yntec.safetensors",
+      "expected_size": 2132625432,
+      "expected_sha256": "be1d90c4abb7bb0183f267f899f38b44112ad6ef9a757a6723514ea4e9be15dc",
+      "license": "creativeml-openrail-m",
+      "dest_path": "MODEL_DIR/AbsoluteReality_v16_modelscope_Yntec.safetensors",
+      "cache_dir": "USER_HOME/.cache/modelscope/hub/models/Yntec/AbsoluteReality",
+      "cache_source": "USER_HOME/.cache/modelscope/hub/models/Yntec/AbsoluteReality/absolutereality_v16.safetensors",
+      "cache_size": 2132625432,
+      "cache_sha256": "be1d90c4abb7bb0183f267f899f38b44112ad6ef9a757a6723514ea4e9be15dc",
+      "actual_size": 2132625432,
+      "actual_sha256": "be1d90c4abb7bb0183f267f899f38b44112ad6ef9a757a6723514ea4e9be15dc",
+      "final_size": 2132625432,
+      "final_sha256": "be1d90c4abb7bb0183f267f899f38b44112ad6ef9a757a6723514ea4e9be15dc",
+      "sha256_matches_expected": true,
+      "size_matches_expected": true,
+      "status": "downloaded_verified"
+    }
+  ]
+}

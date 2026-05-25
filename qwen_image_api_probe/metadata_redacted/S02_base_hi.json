@@ -1,0 +1,65 @@
+{
+  "request_index": 8,
+  "prompt_id": "S02_base",
+  "scene_id": "S02",
+  "category": "spatial_color",
+  "variant_type": "base",
+  "relation": "right_of",
+  "language": "hi",
+  "language_name": "Hindi",
+  "submitted_prompt": "एक पीली गेंद एक हरा डिब्बा के दाईं ओर है।",
+  "model": "Qwen-Image",
+  "size": "1328x1328",
+  "n": 1,
+  "endpoint": "REDACTED_ENDPOINT",
+  "request_body": {
+    "n": 1,
+    "size": "1328x1328",
+    "model": "Qwen-Image",
+    "prompt": "एक पीली गेंद एक हरा डिब्बा के दाईं ओर है।"
+  },
+  "http_status": 200,
+  "elapsed_seconds": 11.403,
+  "attempts": 1,
+  "image_format_observed": "url",
+  "image_url_source": "data[0].url",
+  "output_filename": "S02_base_hi.png",
+  "output_png": "PROJECT_ROOT/experiments_qwen_image_api_probe_20260521_1058/images/S02_base_hi.png",
+  "prompt_metadata": {
+    "top_level_orig_prompt": null,
+    "top_level_actual_prompt": null,
+    "top_level_revised_prompt": null,
+    "top_level_prompt_extend": null,
+    "data_0_revised_prompt": "",
+    "metadata_output_results_0_orig_prompt": "एक पीली गेंद एक हरा डिब्बा के दाईं ओर है।",
+    "metadata_output_results_0_actual_prompt": null,
+    "metadata_output_results_0_revised_prompt": null,
+    "metadata_output_results_0_prompt_extend": null
+  },
+  "raw_response_redacted": {
+    "data": [
+      {
+        "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/2sktv8KA9vzdfNt4leug6c_1779334431_00001_30829e0e.png",
+        "b64_json": "<b64_json present; omitted>",
+        "revised_prompt": ""
+      }
+    ],
+    "created": 1779334431,
+    "metadata": {
+      "requestId": "6eb9a575-e2ec-4f96-9e05-7c27eae52fe7",
+      "output": {
+        "taskId": "TuxprA9aB4RTi6G3aRXZV",
+        "taskStatus": "SUCCEEDED",
+        "results": [
+          {
+            "orig_prompt": "एक पीली गेंद एक हरा डिब्बा के दाईं ओर है।",
+            "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/2sktv8KA9vzdfNt4leug6c_1779334431_00001_30829e0e.png"
+          }
+        ],
+        "code": "0",
+        "message": "success"
+      }
+    }
+  },
+  "completed_at": "2026-05-21T11:34:03"
+}

@@ -1,0 +1,65 @@
+{
+  "request_index": 18,
+  "prompt_id": "S04_base",
+  "scene_id": "S04",
+  "category": "spatial_color",
+  "variant_type": "base",
+  "relation": "below",
+  "language": "hi",
+  "language_name": "Hindi",
+  "submitted_prompt": "एक गुलाबी फूलदान एक काला लैंप के नीचे है।",
+  "model": "Qwen-Image",
+  "size": "1328x1328",
+  "n": 1,
+  "endpoint": "REDACTED_ENDPOINT",
+  "request_body": {
+    "n": 1,
+    "size": "1328x1328",
+    "model": "Qwen-Image",
+    "prompt": "एक गुलाबी फूलदान एक काला लैंप के नीचे है।"
+  },
+  "http_status": 200,
+  "elapsed_seconds": 11.463,
+  "attempts": 1,
+  "image_format_observed": "url",
+  "image_url_source": "data[0].url",
+  "output_filename": "S04_base_hi.png",
+  "output_png": "PROJECT_ROOT/experiments_qwen_image_api_probe_20260521_1058/images/S04_base_hi.png",
+  "prompt_metadata": {
+    "top_level_orig_prompt": null,
+    "top_level_actual_prompt": null,
+    "top_level_revised_prompt": null,
+    "top_level_prompt_extend": null,
+    "data_0_revised_prompt": "",
+    "metadata_output_results_0_orig_prompt": "एक गुलाबी फूलदान एक काला लैंप के नीचे है।",
+    "metadata_output_results_0_actual_prompt": null,
+    "metadata_output_results_0_revised_prompt": null,
+    "metadata_output_results_0_prompt_extend": null
+  },
+  "raw_response_redacted": {
+    "data": [
+      {
+        "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/3SjhCT5tSfukne52A15YIo_1779334582_00001_447aba69.png",
+        "b64_json": "<b64_json present; omitted>",
+        "revised_prompt": ""
+      }
+    ],
+    "created": 1779334581,
+    "metadata": {
+      "requestId": "9b444fc6-e360-4e19-a300-3adf5ee6f54d",
+      "output": {
+        "taskId": "WFZNrnGbTQksMjpkodaCO",
+        "taskStatus": "SUCCEEDED",
+        "results": [
+          {
+            "orig_prompt": "एक गुलाबी फूलदान एक काला लैंप के नीचे है।",
+            "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/3SjhCT5tSfukne52A15YIo_1779334582_00001_447aba69.png"
+          }
+        ],
+        "code": "0",
+        "message": "success"
+      }
+    }
+  },
+  "completed_at": "2026-05-21T11:36:33"
+}

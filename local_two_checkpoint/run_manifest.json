@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-05-20T18:34:32",
+  "run_status": [
+    {
+      "model_key": "dreamshaper8",
+      "ckpt_name": "DreamShaper8_modelscope_Yntec_dreamshaper_8.safetensors",
+      "model_path": "MODEL_DIR/DreamShaper8_modelscope_Yntec_dreamshaper_8.safetensors",
+      "port": 8210,
+      "pid": 5180,
+      "requested": 120,
+      "reused_existing": 22,
+      "pending_at_start": 98,
+      "status": "completed",
+      "generated_success": 120,
+      "rows": 120,
+      "generated_new": 98
+    },
+    {
+      "model_key": "absolutereality_v16",
+      "ckpt_name": "AbsoluteReality_v16_modelscope_Yntec.safetensors",
+      "model_path": "MODEL_DIR/AbsoluteReality_v16_modelscope_Yntec.safetensors",
+      "port": 8210,
+      "pid": 5572,
+      "requested": 120,
+      "reused_existing": 0,
+      "pending_at_start": 120,
+      "status": "completed",
+      "generated_success": 120,
+      "rows": 120,
+      "generated_new": 120
+    }
+  ],
+  "analysis": {
+    "status": "analysis_complete",
+    "outputs": {
+      "all_generation_eval_with_tokens": "PROJECT_ROOT/experiments_supplementary_models_20260520_1717/results/all_generation_eval_with_tokens.csv",
+      "image_features": "PROJECT_ROOT/experiments_supplementary_models_20260520_1717/results/image_features.csv",
+      "visual_drift_to_english": "PROJECT_ROOT/experiments_supplementary_models_20260520_1717/results/visual_drift_to_english.csv",
+      "model_language_summary": "PROJECT_ROOT/experiments_supplementary_models_20260520_1717/results/model_language_summary.csv",
+      "directional_comparison": "PROJECT_ROOT/experiments_supplementary_models_20260520_1717/results/directional_comparison_vs_original_anything_subset.csv"
+    }
+  }
+}

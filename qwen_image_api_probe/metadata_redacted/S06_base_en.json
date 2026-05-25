@@ -1,0 +1,65 @@
+{
+  "request_index": 31,
+  "prompt_id": "S06_base",
+  "scene_id": "S06",
+  "category": "quantity_color",
+  "variant_type": "base",
+  "relation": "right_of",
+  "language": "en",
+  "language_name": "English",
+  "submitted_prompt": "Three blue balloons are to the right of one yellow box.",
+  "model": "Qwen-Image",
+  "size": "1328x1328",
+  "n": 1,
+  "endpoint": "REDACTED_ENDPOINT",
+  "request_body": {
+    "n": 1,
+    "size": "1328x1328",
+    "model": "Qwen-Image",
+    "prompt": "Three blue balloons are to the right of one yellow box."
+  },
+  "http_status": 200,
+  "elapsed_seconds": 11.542,
+  "attempts": 1,
+  "image_format_observed": "url",
+  "image_url_source": "data[0].url",
+  "output_filename": "S06_base_en.png",
+  "output_png": "PROJECT_ROOT/experiments_qwen_image_api_probe_20260521_1058/images/S06_base_en.png",
+  "prompt_metadata": {
+    "top_level_orig_prompt": null,
+    "top_level_actual_prompt": null,
+    "top_level_revised_prompt": null,
+    "top_level_prompt_extend": null,
+    "data_0_revised_prompt": "",
+    "metadata_output_results_0_orig_prompt": "Three blue balloons are to the right of one yellow box.",
+    "metadata_output_results_0_actual_prompt": null,
+    "metadata_output_results_0_revised_prompt": null,
+    "metadata_output_results_0_prompt_extend": null
+  },
+  "raw_response_redacted": {
+    "data": [
+      {
+        "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/1u2w5obmgWSTUQqSiQdiYA_1779334796_00001_b49b2fb8.png",
+        "b64_json": "<b64_json present; omitted>",
+        "revised_prompt": ""
+      }
+    ],
+    "created": 1779334795,
+    "metadata": {
+      "requestId": "4250fbb7-a849-4a33-9128-1900ddc26625",
+      "output": {
+        "taskId": "4wN2gbZuMZX4wTSXwy5FJ5",
+        "taskStatus": "SUCCEEDED",
+        "results": [
+          {
+            "orig_prompt": "Three blue balloons are to the right of one yellow box.",
+            "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/1u2w5obmgWSTUQqSiQdiYA_1779334796_00001_b49b2fb8.png"
+          }
+        ],
+        "code": "0",
+        "message": "success"
+      }
+    }
+  },
+  "completed_at": "2026-05-21T11:40:07"
+}

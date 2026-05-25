@@ -1,0 +1,65 @@
+{
+  "request_index": 3,
+  "prompt_id": "S01_base",
+  "scene_id": "S01",
+  "category": "spatial_color",
+  "variant_type": "base",
+  "relation": "left_of",
+  "language": "hi",
+  "language_name": "Hindi",
+  "submitted_prompt": "एक लाल कप एक नीली किताब के बाईं ओर है।",
+  "model": "Qwen-Image",
+  "size": "1328x1328",
+  "n": 1,
+  "endpoint": "REDACTED_ENDPOINT",
+  "request_body": {
+    "n": 1,
+    "size": "1328x1328",
+    "model": "Qwen-Image",
+    "prompt": "एक लाल कप एक नीली किताब के बाईं ओर है।"
+  },
+  "http_status": 200,
+  "elapsed_seconds": 11.437,
+  "attempts": 1,
+  "image_format_observed": "url",
+  "image_url_source": "data[0].url",
+  "output_filename": "S01_base_hi.png",
+  "output_png": "PROJECT_ROOT/experiments_qwen_image_api_probe_20260521_1058/images/S01_base_hi.png",
+  "prompt_metadata": {
+    "top_level_orig_prompt": null,
+    "top_level_actual_prompt": null,
+    "top_level_revised_prompt": null,
+    "top_level_prompt_extend": null,
+    "data_0_revised_prompt": "",
+    "metadata_output_results_0_orig_prompt": "एक लाल कप एक नीली किताब के बाईं ओर है।",
+    "metadata_output_results_0_actual_prompt": null,
+    "metadata_output_results_0_revised_prompt": null,
+    "metadata_output_results_0_prompt_extend": null
+  },
+  "raw_response_redacted": {
+    "data": [
+      {
+        "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/2O79scuiu9VEcc8JqE19wN_1779334359_00001_33d59f2f.png",
+        "b64_json": "<b64_json present; omitted>",
+        "revised_prompt": ""
+      }
+    ],
+    "created": 1779334358,
+    "metadata": {
+      "requestId": "59a52cc4-4d16-469d-8c5a-bb395aa85e71",
+      "output": {
+        "taskId": "5du8T0blNsQeDtqpQjSFU6",
+        "taskStatus": "SUCCEEDED",
+        "results": [
+          {
+            "orig_prompt": "एक लाल कप एक नीली किताब के बाईं ओर है।",
+            "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/2O79scuiu9VEcc8JqE19wN_1779334359_00001_33d59f2f.png"
+          }
+        ],
+        "code": "0",
+        "message": "success"
+      }
+    }
+  },
+  "completed_at": "2026-05-21T11:32:52"
+}

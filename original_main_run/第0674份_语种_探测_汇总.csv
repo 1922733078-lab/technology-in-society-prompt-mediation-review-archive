@@ -1,0 +1,6 @@
+language,language_name,records,generated_success,object_presence,color_binding,count_match,relation_match,negation_match,strict_success
+en,English,2,2,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000
+zh,Chinese,2,2,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000
+hi,Hindi,2,2,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000
+es,Spanish,2,2,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000
+fr,French,2,2,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000

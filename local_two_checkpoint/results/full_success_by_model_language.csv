@@ -1,0 +1,11 @@
+model_key,language,language_name,expected,success,failed_or_missing
+absolutereality_v16,en,English,24,24,0
+absolutereality_v16,es,Spanish,24,24,0
+absolutereality_v16,fr,French,24,24,0
+absolutereality_v16,hi,Hindi,24,24,0
+absolutereality_v16,zh,Chinese,24,24,0
+dreamshaper8,en,English,24,24,0
+dreamshaper8,es,Spanish,24,24,0
+dreamshaper8,fr,French,24,24,0
+dreamshaper8,hi,Hindi,24,24,0
+dreamshaper8,zh,Chinese,24,24,0

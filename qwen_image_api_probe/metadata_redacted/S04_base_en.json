@@ -1,0 +1,65 @@
+{
+  "request_index": 16,
+  "prompt_id": "S04_base",
+  "scene_id": "S04",
+  "category": "spatial_color",
+  "variant_type": "base",
+  "relation": "below",
+  "language": "en",
+  "language_name": "English",
+  "submitted_prompt": "A pink vase is below a black lamp.",
+  "model": "Qwen-Image",
+  "size": "1328x1328",
+  "n": 1,
+  "endpoint": "REDACTED_ENDPOINT",
+  "request_body": {
+    "n": 1,
+    "size": "1328x1328",
+    "model": "Qwen-Image",
+    "prompt": "A pink vase is below a black lamp."
+  },
+  "http_status": 200,
+  "elapsed_seconds": 17.002,
+  "attempts": 1,
+  "image_format_observed": "url",
+  "image_url_source": "data[0].url",
+  "output_filename": "S04_base_en.png",
+  "output_png": "PROJECT_ROOT/experiments_qwen_image_api_probe_20260521_1058/images/S04_base_en.png",
+  "prompt_metadata": {
+    "top_level_orig_prompt": null,
+    "top_level_actual_prompt": null,
+    "top_level_revised_prompt": null,
+    "top_level_prompt_extend": null,
+    "data_0_revised_prompt": "",
+    "metadata_output_results_0_orig_prompt": "A pink vase is below a black lamp.",
+    "metadata_output_results_0_actual_prompt": null,
+    "metadata_output_results_0_revised_prompt": null,
+    "metadata_output_results_0_prompt_extend": null
+  },
+  "raw_response_redacted": {
+    "data": [
+      {
+        "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/25DP2tOC5xHy764XlX0Kkd_1779334552_00001_48e8aa63.png",
+        "b64_json": "<b64_json present; omitted>",
+        "revised_prompt": ""
+      }
+    ],
+    "created": 1779334546,
+    "metadata": {
+      "requestId": "cc36e91d-e3fa-4ffc-a6c7-d727c6a2831b",
+      "output": {
+        "taskId": "1xbswRQd1dQdmqAj24niH5",
+        "taskStatus": "SUCCEEDED",
+        "results": [
+          {
+            "orig_prompt": "A pink vase is below a black lamp.",
+            "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/25DP2tOC5xHy764XlX0Kkd_1779334552_00001_48e8aa63.png"
+          }
+        ],
+        "code": "0",
+        "message": "success"
+      }
+    }
+  },
+  "completed_at": "2026-05-21T11:36:05"
+}

@@ -1,0 +1,7 @@
+operation,count,rate
+composition_specification,60,1.0
+clean_background,36,0.6
+realism_or_stylization,58,0.967
+negative_no_text,19,0.317
+object_relation_clarification,60,1.0
+detail_expansion,60,1.0

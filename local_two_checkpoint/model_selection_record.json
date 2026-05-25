@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-05-20T18:16:50",
+  "run_scope_label": "full_subset",
+  "model_dir": "MODEL_DIR",
+  "existing_reference_model": "anything-v5-PrtRE.safetensors",
+  "selected_models": [
+    {
+      "model_key": "dreamshaper8",
+      "ckpt_name": "DreamShaper8_modelscope_Yntec_dreamshaper_8.safetensors",
+      "modelscope_id": "Yntec/Dreamshaper8",
+      "source_file": "dreamshaper_8.safetensors",
+      "sha256": "879db523c30d3b9017143d56705015e15a2cb5628762c11d086fed9538abd7fd",
+      "license": "creativeml-openrail-m"
+    },
+    {
+      "model_key": "absolutereality_v16",
+      "ckpt_name": "AbsoluteReality_v16_modelscope_Yntec.safetensors",
+      "modelscope_id": "Yntec/AbsoluteReality",
+      "source_file": "absolutereality_v16.safetensors",
+      "sha256": "be1d90c4abb7bb0183f267f899f38b44112ad6ef9a757a6723514ea4e9be15dc",
+      "license": "creativeml-openrail-m"
+    }
+  ],
+  "excluded_large_alternative": "SDXL base/refiner candidates on ModelScope were not selected because file size and workflow/tokenizer changes would reduce comparability."
+}

@@ -1,0 +1,65 @@
+{
+  "request_index": 41,
+  "prompt_id": "S08_base",
+  "scene_id": "S08",
+  "category": "attribute_binding",
+  "variant_type": "base",
+  "relation": "above",
+  "language": "en",
+  "language_name": "English",
+  "submitted_prompt": "A gray cat is above a brown dog.",
+  "model": "Qwen-Image",
+  "size": "1328x1328",
+  "n": 1,
+  "endpoint": "REDACTED_ENDPOINT",
+  "request_body": {
+    "n": 1,
+    "size": "1328x1328",
+    "model": "Qwen-Image",
+    "prompt": "A gray cat is above a brown dog."
+  },
+  "http_status": 200,
+  "elapsed_seconds": 11.288,
+  "attempts": 1,
+  "image_format_observed": "url",
+  "image_url_source": "data[0].url",
+  "output_filename": "S08_base_en.png",
+  "output_png": "PROJECT_ROOT/experiments_qwen_image_api_probe_20260521_1058/images/S08_base_en.png",
+  "prompt_metadata": {
+    "top_level_orig_prompt": null,
+    "top_level_actual_prompt": null,
+    "top_level_revised_prompt": null,
+    "top_level_prompt_extend": null,
+    "data_0_revised_prompt": "",
+    "metadata_output_results_0_orig_prompt": "A gray cat is above a brown dog.",
+    "metadata_output_results_0_actual_prompt": null,
+    "metadata_output_results_0_revised_prompt": null,
+    "metadata_output_results_0_prompt_extend": null
+  },
+  "raw_response_redacted": {
+    "data": [
+      {
+        "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/5k2nH64ktd9FArR50gUMYr_1779334944_00001_1522896a.png",
+        "b64_json": "<b64_json present; omitted>",
+        "revised_prompt": ""
+      }
+    ],
+    "created": 1779334943,
+    "metadata": {
+      "requestId": "9ab2717c-9de5-4247-8ce8-079c6beb3996",
+      "output": {
+        "taskId": "4QQvLKGSnl4yxdCitwVIpw",
+        "taskStatus": "SUCCEEDED",
+        "results": [
+          {
+            "orig_prompt": "A gray cat is above a brown dog.",
+            "url": "https://oss-upload-temp.sophnet.com/uploads/20260521/5k2nH64ktd9FArR50gUMYr_1779334944_00001_1522896a.png"
+          }
+        ],
+        "code": "0",
+        "message": "success"
+      }
+    }
+  },
+  "completed_at": "2026-05-21T11:42:35"
+}
