@@ -10,6 +10,7 @@ The repository is not a manuscript draft and does not include author-identifying
 - `local_two_checkpoint/`: supplementary local robustness check using DreamShaper8 and AbsoluteReality v1.6, including generation summaries, visual features, drift comparisons, and contact sheets.
 - `gpt_image2_expanded/`: 60-image GPT-image-2 mechanism probe, including generation manifests, coding tables, language/scene/operation summaries, reports, and contact sheet.
 - `qwen_image_api_probe/`: 60-image Qwen-Image API probe, including redacted metadata summaries, coding tables, reports, contact sheet, and metadata sidecars with private endpoint details removed.
+- `docs/`: codebook and claim-boundary notes that document how the manuscript maps empirical records to bounded claims.
 
 ## How the Materials Support the Manuscript
 
@@ -17,6 +18,8 @@ The files document the empirical basis for the manuscript's claims about prompt 
 
 - Prompt inventories and generation manifests record the submitted multilingual prompts, seeds, model settings, and run structure.
 - Coding tables document how revised prompts, curation operations, metadata exposure, and visual checks were coded.
+- The codebook in `docs/revised_prompt_codebook.md` defines the six GPT-image-2 revised-prompt mediation categories and the rule for not inferring hidden rewriting from empty or absent fields.
+- The claim-boundary note in `docs/claim_boundary_notes.md` states which conclusions are supported by each empirical pathway and which stronger interpretations are outside the evidence.
 - Visual feature and drift tables provide the quantitative summaries used for cross-language comparison.
 - Contact sheets allow readers to inspect representative generated images without needing to reconstruct the full local environment.
 - Redacted metadata files show which prompt-transformation fields were exposed by the API responses while withholding credentials and private endpoint information.
