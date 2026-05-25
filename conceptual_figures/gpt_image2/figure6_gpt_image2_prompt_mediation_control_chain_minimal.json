@@ -1,0 +1,22 @@
+{
+  "created": 1779701557,
+  "background": "opaque",
+  "output_format": "png",
+  "quality": "medium",
+  "size": "2048x1536",
+  "usage": {
+    "input_tokens": 257,
+    "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 257
+    },
+    "output_tokens": 2223,
+    "output_tokens_details": {
+      "image_tokens": 2223,
+      "text_tokens": 0
+    },
+    "total_tokens": 2480
+  },
+  "prompt_used": "Create a clean academic conceptual diagram for a Technology in Society journal paper.\n\nCanvas: white background, landscape 4:3, publication-ready, crisp vector-like layout, no decorative background, no photos, no icons that look childish.\n\nTitle at top, exact text:\nPrompt Mediation and Creative Control\n\nMain horizontal chain with five rounded rectangles connected by arrows:\n1. Submitted prompt\n2. Text encoder\n3. System rewrite\n4. Metadata\n5. Creative control\n\nUnder the chain, add three thin evidence bands with exact short labels:\nDrift metrics\nRevised prompts\nSchema fields\n\nDesign constraints:\n- Use only the exact text labels above; do not add paragraphs.\n- Keep all text large, black, and correctly spelled.\n- Use a restrained scholarly color palette: blue, teal, orange, purple, and gray.\n- Align boxes evenly, leave generous spacing, no overlapping text or arrows.\n- Make it look like a mature empirical mechanism figure, not a marketing graphic.\n- The caption is not part of the image, so do not add any caption text.",
+  "revised_prompt": "Create a clean academic conceptual diagram for a Technology in Society journal paper on a white background in landscape 4:3 ratio, crisp vector-like publication-ready style, no photos, no childish icons, no decorative background, no shadows or gradients. Use a restrained scholarly palette with blue, teal, orange, purple, and gray accents, but keep all text large, black, sharp, and perfectly legible.\n\nTop title centered, exact text only:\nPrompt Mediation and Creative Control\n\nBelow the title, place a main horizontal chain of five evenly spaced rounded rectangles with thin outlines, connected left-to-right by clean arrows. Use balanced spacing and alignment, no overlap. Each box should contain exactly one of these labels, in this order:\nSubmitted prompt\nText encoder\nSystem rewrite\nMetadata\nCreative control\n\nUnder the chain, add three thin horizontal evidence bands, aligned across the figure, each with a small left-aligned label in exact text, no extra words:\nDrift metrics\nRevised prompts\nSchema fields\n\nThe overall look should be a mature empirical mechanism figure, scholarly and restrained, suitable for an academic journal. Use simple geometry, consistent stroke widths, ample whitespace, and a polished diagram layout. Do not add any caption text or other annotations."
+}

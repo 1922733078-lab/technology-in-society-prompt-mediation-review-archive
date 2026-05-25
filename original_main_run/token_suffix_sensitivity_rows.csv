@@ -1,0 +1,441 @@
+prompt_id,seed,language,language_name,prompt_zh,prompt_clip_tokens_without_suffix,positive_clip_tokens_with_suffix,suffix_added_tokens,without_suffix_over_77,clip_tokens_over_77,clip_token_excess
+S01_base,2026051801,en,English,A red cup is to the left of a blue book.,14,20,6,False,False,0
+S01_base,2026051802,en,English,A red cup is to the left of a blue book.,14,20,6,False,False,0
+S01_synonym,2026051801,en,English,Please generate a simple image of a red cup on the left side of a blue book.,20,26,6,False,False,0
+S01_synonym,2026051802,en,English,Please generate a simple image of a red cup on the left side of a blue book.,20,26,6,False,False,0
+S01_word_order,2026051801,en,English,To the left of the blue book is a red cup.,14,20,6,False,False,0
+S01_word_order,2026051802,en,English,To the left of the blue book is a red cup.,14,20,6,False,False,0
+S01_attribute_swap,2026051801,en,English,A blue cup is to the left of a red book.,14,20,6,False,False,0
+S01_attribute_swap,2026051802,en,English,A blue cup is to the left of a red book.,14,20,6,False,False,0
+S02_base,2026051801,en,English,A yellow ball is to the right of a green box.,14,20,6,False,False,0
+S02_base,2026051802,en,English,A yellow ball is to the right of a green box.,14,20,6,False,False,0
+S02_synonym,2026051801,en,English,Please generate a simple image of a yellow ball on the right side of a green box.,20,26,6,False,False,0
+S02_synonym,2026051802,en,English,Please generate a simple image of a yellow ball on the right side of a green box.,20,26,6,False,False,0
+S02_word_order,2026051801,en,English,To the right of the green box is a yellow ball.,14,20,6,False,False,0
+S02_word_order,2026051802,en,English,To the right of the green box is a yellow ball.,14,20,6,False,False,0
+S02_attribute_swap,2026051801,en,English,A green ball is to the right of a yellow box.,14,20,6,False,False,0
+S02_attribute_swap,2026051802,en,English,A green ball is to the right of a yellow box.,14,20,6,False,False,0
+S03_base,2026051801,en,English,A purple chair is above an orange table.,11,17,6,False,False,0
+S03_base,2026051802,en,English,A purple chair is above an orange table.,11,17,6,False,False,0
+S03_synonym,2026051801,en,English,Please generate a simple image of a purple chair above an orange table.,16,22,6,False,False,0
+S03_synonym,2026051802,en,English,Please generate a simple image of a purple chair above an orange table.,16,22,6,False,False,0
+S03_word_order,2026051801,en,English,Above the orange table is a purple chair.,11,17,6,False,False,0
+S03_word_order,2026051802,en,English,Above the orange table is a purple chair.,11,17,6,False,False,0
+S03_attribute_swap,2026051801,en,English,An orange chair is above a purple table.,11,17,6,False,False,0
+S03_attribute_swap,2026051802,en,English,An orange chair is above a purple table.,11,17,6,False,False,0
+S04_base,2026051801,en,English,A pink vase is below a black lamp.,11,17,6,False,False,0
+S04_base,2026051802,en,English,A pink vase is below a black lamp.,11,17,6,False,False,0
+S04_synonym,2026051801,en,English,Please generate a simple image of a pink vase below a black lamp.,16,22,6,False,False,0
+S04_synonym,2026051802,en,English,Please generate a simple image of a pink vase below a black lamp.,16,22,6,False,False,0
+S04_word_order,2026051801,en,English,Below the black lamp is a pink vase.,11,17,6,False,False,0
+S04_word_order,2026051802,en,English,Below the black lamp is a pink vase.,11,17,6,False,False,0
+S04_attribute_swap,2026051801,en,English,A black vase is below a pink lamp.,11,17,6,False,False,0
+S04_attribute_swap,2026051802,en,English,A black vase is below a pink lamp.,11,17,6,False,False,0
+S05_base,2026051801,en,English,Two red apples are to the left of one green pear.,14,20,6,False,False,0
+S05_base,2026051802,en,English,Two red apples are to the left of one green pear.,14,20,6,False,False,0
+S05_synonym,2026051801,en,English,Please generate a simple image of two red apples on the left side of one green pear.,20,26,6,False,False,0
+S05_synonym,2026051802,en,English,Please generate a simple image of two red apples on the left side of one green pear.,20,26,6,False,False,0
+S05_word_order,2026051801,en,English,To the left of one green pear are two red apples.,14,20,6,False,False,0
+S05_word_order,2026051802,en,English,To the left of one green pear are two red apples.,14,20,6,False,False,0
+S05_attribute_swap,2026051801,en,English,Two green apples are to the left of one red pear.,14,20,6,False,False,0
+S05_attribute_swap,2026051802,en,English,Two green apples are to the left of one red pear.,14,20,6,False,False,0
+S05_quantity_shift,2026051801,en,English,One red apple is to the left of one green pear.,14,20,6,False,False,0
+S05_quantity_shift,2026051802,en,English,One red apple is to the left of one green pear.,14,20,6,False,False,0
+S06_base,2026051801,en,English,Three blue balloons are to the right of one yellow box.,14,20,6,False,False,0
+S06_base,2026051802,en,English,Three blue balloons are to the right of one yellow box.,14,20,6,False,False,0
+S06_synonym,2026051801,en,English,Please generate a simple image of three blue balloons on the right side of one yellow box.,20,26,6,False,False,0
+S06_synonym,2026051802,en,English,Please generate a simple image of three blue balloons on the right side of one yellow box.,20,26,6,False,False,0
+S06_word_order,2026051801,en,English,To the right of one yellow box are three blue balloons.,14,20,6,False,False,0
+S06_word_order,2026051802,en,English,To the right of one yellow box are three blue balloons.,14,20,6,False,False,0
+S06_attribute_swap,2026051801,en,English,Three yellow balloons are to the right of one blue box.,14,20,6,False,False,0
+S06_attribute_swap,2026051802,en,English,Three yellow balloons are to the right of one blue box.,14,20,6,False,False,0
+S06_quantity_shift,2026051801,en,English,Two blue balloons are to the right of one yellow box.,14,20,6,False,False,0
+S06_quantity_shift,2026051802,en,English,Two blue balloons are to the right of one yellow box.,14,20,6,False,False,0
+S07_base,2026051801,en,English,A black car is to the left of a white bicycle.,14,20,6,False,False,0
+S07_base,2026051802,en,English,A black car is to the left of a white bicycle.,14,20,6,False,False,0
+S07_synonym,2026051801,en,English,Please generate a simple image of a black car on the left side of a white bicycle.,20,26,6,False,False,0
+S07_synonym,2026051802,en,English,Please generate a simple image of a black car on the left side of a white bicycle.,20,26,6,False,False,0
+S07_word_order,2026051801,en,English,To the left of a white bicycle is a black car.,14,20,6,False,False,0
+S07_word_order,2026051802,en,English,To the left of a white bicycle is a black car.,14,20,6,False,False,0
+S07_attribute_swap,2026051801,en,English,A white car is to the left of a black bicycle.,14,20,6,False,False,0
+S07_attribute_swap,2026051802,en,English,A white car is to the left of a black bicycle.,14,20,6,False,False,0
+S08_base,2026051801,en,English,A gray cat is above a brown dog.,11,17,6,False,False,0
+S08_base,2026051802,en,English,A gray cat is above a brown dog.,11,17,6,False,False,0
+S08_synonym,2026051801,en,English,Please generate a simple image of a gray cat above a brown dog.,16,22,6,False,False,0
+S08_synonym,2026051802,en,English,Please generate a simple image of a gray cat above a brown dog.,16,22,6,False,False,0
+S08_word_order,2026051801,en,English,Above a brown dog is a gray cat.,11,17,6,False,False,0
+S08_word_order,2026051802,en,English,Above a brown dog is a gray cat.,11,17,6,False,False,0
+S08_attribute_swap,2026051801,en,English,A brown cat is above a gray dog.,11,17,6,False,False,0
+S08_attribute_swap,2026051802,en,English,A brown cat is above a gray dog.,11,17,6,False,False,0
+S09_base,2026051801,en,English,"A blue ship and a yellow sun appear together, and there is no bird.",18,24,6,False,False,0
+S09_base,2026051802,en,English,"A blue ship and a yellow sun appear together, and there is no bird.",18,24,6,False,False,0
+S09_synonym,2026051801,en,English,"Please generate a simple image of a blue ship and a yellow sun together, with no bird.",21,27,6,False,False,0
+S09_synonym,2026051802,en,English,"Please generate a simple image of a blue ship and a yellow sun together, with no bird.",21,27,6,False,False,0
+S09_word_order,2026051801,en,English,"A yellow sun appears next to a blue ship, and there is no bird.",18,24,6,False,False,0
+S09_word_order,2026051802,en,English,"A yellow sun appears next to a blue ship, and there is no bird.",18,24,6,False,False,0
+S09_attribute_swap,2026051801,en,English,"A yellow ship and a blue sun appear together, and there is no bird.",18,24,6,False,False,0
+S09_attribute_swap,2026051802,en,English,"A yellow ship and a blue sun appear together, and there is no bird.",18,24,6,False,False,0
+S09_negation_rephrase,2026051801,en,English,Do not draw a bird; keep only the blue ship and the yellow sun.,18,24,6,False,False,0
+S09_negation_rephrase,2026051802,en,English,Do not draw a bird; keep only the blue ship and the yellow sun.,18,24,6,False,False,0
+S10_base,2026051801,en,English,"A red umbrella is above a brown bench, and there is no car.",17,23,6,False,False,0
+S10_base,2026051802,en,English,"A red umbrella is above a brown bench, and there is no car.",17,23,6,False,False,0
+S10_synonym,2026051801,en,English,"Please generate a simple image of a red umbrella above a brown bench, with no car.",20,26,6,False,False,0
+S10_synonym,2026051802,en,English,"Please generate a simple image of a red umbrella above a brown bench, with no car.",20,26,6,False,False,0
+S10_word_order,2026051801,en,English,"Above a brown bench is a red umbrella, and there is no car.",17,23,6,False,False,0
+S10_word_order,2026051802,en,English,"Above a brown bench is a red umbrella, and there is no car.",17,23,6,False,False,0
+S10_attribute_swap,2026051801,en,English,"A brown umbrella is above a red bench, and there is no car.",17,23,6,False,False,0
+S10_attribute_swap,2026051802,en,English,"A brown umbrella is above a red bench, and there is no car.",17,23,6,False,False,0
+S10_negation_rephrase,2026051801,en,English,Do not draw a car; keep only the red umbrella and the brown bench.,18,24,6,False,False,0
+S10_negation_rephrase,2026051802,en,English,Do not draw a car; keep only the red umbrella and the brown bench.,18,24,6,False,False,0
+S01_base,2026051801,zh,Chinese,红色杯子在蓝色书的左边。,32,39,7,False,False,0
+S01_base,2026051802,zh,Chinese,红色杯子在蓝色书的左边。,32,39,7,False,False,0
+S01_synonym,2026051801,zh,Chinese,请生成一张简洁图像：红色杯子位于蓝色书左侧。,58,65,7,False,False,0
+S01_synonym,2026051802,zh,Chinese,请生成一张简洁图像：红色杯子位于蓝色书左侧。,58,65,7,False,False,0
+S01_word_order,2026051801,zh,Chinese,蓝色书的旁边，在它的左边的是红色杯子。,50,57,7,False,False,0
+S01_word_order,2026051802,zh,Chinese,蓝色书的旁边，在它的左边的是红色杯子。,50,57,7,False,False,0
+S01_attribute_swap,2026051801,zh,Chinese,蓝色杯子在红色书的左边。,32,39,7,False,False,0
+S01_attribute_swap,2026051802,zh,Chinese,蓝色杯子在红色书的左边。,32,39,7,False,False,0
+S02_base,2026051801,zh,Chinese,黄色球在绿色盒子的右边。,33,40,7,False,False,0
+S02_base,2026051802,zh,Chinese,黄色球在绿色盒子的右边。,33,40,7,False,False,0
+S02_synonym,2026051801,zh,Chinese,请生成一张简洁图像：黄色球位于绿色盒子右侧。,59,66,7,False,False,0
+S02_synonym,2026051802,zh,Chinese,请生成一张简洁图像：黄色球位于绿色盒子右侧。,59,66,7,False,False,0
+S02_word_order,2026051801,zh,Chinese,绿色盒子的旁边，在它的右边的是黄色球。,51,58,7,False,False,0
+S02_word_order,2026051802,zh,Chinese,绿色盒子的旁边，在它的右边的是黄色球。,51,58,7,False,False,0
+S02_attribute_swap,2026051801,zh,Chinese,绿色球在黄色盒子的右边。,33,40,7,False,False,0
+S02_attribute_swap,2026051802,zh,Chinese,绿色球在黄色盒子的右边。,33,40,7,False,False,0
+S03_base,2026051801,zh,Chinese,紫色椅子在橙色桌子的上方。,34,41,7,False,False,0
+S03_base,2026051802,zh,Chinese,紫色椅子在橙色桌子的上方。,34,41,7,False,False,0
+S03_synonym,2026051801,zh,Chinese,请生成一张简洁图像：紫色椅子位于橙色桌子上面。,61,68,7,False,False,0
+S03_synonym,2026051802,zh,Chinese,请生成一张简洁图像：紫色椅子位于橙色桌子上面。,61,68,7,False,False,0
+S03_word_order,2026051801,zh,Chinese,橙色桌子的旁边，在它的上方的是紫色椅子。,52,59,7,False,False,0
+S03_word_order,2026051802,zh,Chinese,橙色桌子的旁边，在它的上方的是紫色椅子。,52,59,7,False,False,0
+S03_attribute_swap,2026051801,zh,Chinese,橙色椅子在紫色桌子的上方。,34,41,7,False,False,0
+S03_attribute_swap,2026051802,zh,Chinese,橙色椅子在紫色桌子的上方。,34,41,7,False,False,0
+S04_base,2026051801,zh,Chinese,粉色花瓶在黑色灯的下方。,33,40,7,False,False,0
+S04_base,2026051802,zh,Chinese,粉色花瓶在黑色灯的下方。,33,40,7,False,False,0
+S04_synonym,2026051801,zh,Chinese,请生成一张简洁图像：粉色花瓶位于黑色灯下面。,60,67,7,False,False,0
+S04_synonym,2026051802,zh,Chinese,请生成一张简洁图像：粉色花瓶位于黑色灯下面。,60,67,7,False,False,0
+S04_word_order,2026051801,zh,Chinese,黑色灯的旁边，在它的下方的是粉色花瓶。,51,58,7,False,False,0
+S04_word_order,2026051802,zh,Chinese,黑色灯的旁边，在它的下方的是粉色花瓶。,51,58,7,False,False,0
+S04_attribute_swap,2026051801,zh,Chinese,黑色花瓶在粉色灯的下方。,33,40,7,False,False,0
+S04_attribute_swap,2026051802,zh,Chinese,黑色花瓶在粉色灯的下方。,33,40,7,False,False,0
+S05_base,2026051801,zh,Chinese,两个红色苹果在一个绿色梨的左边。,43,50,7,False,False,0
+S05_base,2026051802,zh,Chinese,两个红色苹果在一个绿色梨的左边。,43,50,7,False,False,0
+S05_synonym,2026051801,zh,Chinese,请生成一张简洁图像：两个红色苹果位于一个绿色梨左侧。,69,76,7,False,False,0
+S05_synonym,2026051802,zh,Chinese,请生成一张简洁图像：两个红色苹果位于一个绿色梨左侧。,69,76,7,False,False,0
+S05_word_order,2026051801,zh,Chinese,一个绿色梨的旁边，在它的左边的是两个红色苹果。,61,68,7,False,False,0
+S05_word_order,2026051802,zh,Chinese,一个绿色梨的旁边，在它的左边的是两个红色苹果。,61,68,7,False,False,0
+S05_attribute_swap,2026051801,zh,Chinese,两个绿色苹果在一个红色梨的左边。,43,50,7,False,False,0
+S05_attribute_swap,2026051802,zh,Chinese,两个绿色苹果在一个红色梨的左边。,43,50,7,False,False,0
+S05_quantity_shift,2026051801,zh,Chinese,一个红色苹果在一个绿色梨的左边。,43,50,7,False,False,0
+S05_quantity_shift,2026051802,zh,Chinese,一个红色苹果在一个绿色梨的左边。,43,50,7,False,False,0
+S06_base,2026051801,zh,Chinese,三个蓝色气球在一个黄色盒子的右边。,44,51,7,False,False,0
+S06_base,2026051802,zh,Chinese,三个蓝色气球在一个黄色盒子的右边。,44,51,7,False,False,0
+S06_synonym,2026051801,zh,Chinese,请生成一张简洁图像：三个蓝色气球位于一个黄色盒子右侧。,70,77,7,False,False,0
+S06_synonym,2026051802,zh,Chinese,请生成一张简洁图像：三个蓝色气球位于一个黄色盒子右侧。,70,77,7,False,False,0
+S06_word_order,2026051801,zh,Chinese,一个黄色盒子的旁边，在它的右边的是三个蓝色气球。,62,69,7,False,False,0
+S06_word_order,2026051802,zh,Chinese,一个黄色盒子的旁边，在它的右边的是三个蓝色气球。,62,69,7,False,False,0
+S06_attribute_swap,2026051801,zh,Chinese,三个黄色气球在一个蓝色盒子的右边。,44,51,7,False,False,0
+S06_attribute_swap,2026051802,zh,Chinese,三个黄色气球在一个蓝色盒子的右边。,44,51,7,False,False,0
+S06_quantity_shift,2026051801,zh,Chinese,两个蓝色气球在一个黄色盒子的右边。,44,51,7,False,False,0
+S06_quantity_shift,2026051802,zh,Chinese,两个蓝色气球在一个黄色盒子的右边。,44,51,7,False,False,0
+S07_base,2026051801,zh,Chinese,黑色汽车在白色自行车的左边。,41,48,7,False,False,0
+S07_base,2026051802,zh,Chinese,黑色汽车在白色自行车的左边。,41,48,7,False,False,0
+S07_synonym,2026051801,zh,Chinese,请生成一张简洁图像：黑色汽车位于白色自行车左侧。,67,74,7,False,False,0
+S07_synonym,2026051802,zh,Chinese,请生成一张简洁图像：黑色汽车位于白色自行车左侧。,67,74,7,False,False,0
+S07_word_order,2026051801,zh,Chinese,白色自行车的旁边，在它的左边的是黑色汽车。,59,66,7,False,False,0
+S07_word_order,2026051802,zh,Chinese,白色自行车的旁边，在它的左边的是黑色汽车。,59,66,7,False,False,0
+S07_attribute_swap,2026051801,zh,Chinese,白色汽车在黑色自行车的左边。,41,48,7,False,False,0
+S07_attribute_swap,2026051802,zh,Chinese,白色汽车在黑色自行车的左边。,41,48,7,False,False,0
+S08_base,2026051801,zh,Chinese,灰色猫在棕色狗的上方。,30,37,7,False,False,0
+S08_base,2026051802,zh,Chinese,灰色猫在棕色狗的上方。,30,37,7,False,False,0
+S08_synonym,2026051801,zh,Chinese,请生成一张简洁图像：灰色猫位于棕色狗上面。,57,64,7,False,False,0
+S08_synonym,2026051802,zh,Chinese,请生成一张简洁图像：灰色猫位于棕色狗上面。,57,64,7,False,False,0
+S08_word_order,2026051801,zh,Chinese,棕色狗的旁边，在它的上方的是灰色猫。,48,55,7,False,False,0
+S08_word_order,2026051802,zh,Chinese,棕色狗的旁边，在它的上方的是灰色猫。,48,55,7,False,False,0
+S08_attribute_swap,2026051801,zh,Chinese,棕色猫在灰色狗的上方。,30,37,7,False,False,0
+S08_attribute_swap,2026051802,zh,Chinese,棕色猫在灰色狗的上方。,30,37,7,False,False,0
+S09_base,2026051801,zh,Chinese,蓝色船和黄色太阳同时出现，不要出现鸟。,53,60,7,False,False,0
+S09_base,2026051802,zh,Chinese,蓝色船和黄色太阳同时出现，不要出现鸟。,53,60,7,False,False,0
+S09_synonym,2026051801,zh,Chinese,请生成一张简洁图像：蓝色船与黄色太阳一起出现，不要出现鸟。,80,87,7,True,True,10
+S09_synonym,2026051802,zh,Chinese,请生成一张简洁图像：蓝色船与黄色太阳一起出现，不要出现鸟。,80,87,7,True,True,10
+S09_word_order,2026051801,zh,Chinese,黄色太阳旁边有蓝色船，不要出现鸟。,47,54,7,False,False,0
+S09_word_order,2026051802,zh,Chinese,黄色太阳旁边有蓝色船，不要出现鸟。,47,54,7,False,False,0
+S09_attribute_swap,2026051801,zh,Chinese,黄色船和蓝色太阳同时出现，不要出现鸟。,53,60,7,False,False,0
+S09_attribute_swap,2026051802,zh,Chinese,黄色船和蓝色太阳同时出现，不要出现鸟。,53,60,7,False,False,0
+S09_negation_rephrase,2026051801,zh,Chinese,请不要画鸟，只保留蓝色船和黄色太阳。,50,57,7,False,False,0
+S09_negation_rephrase,2026051802,zh,Chinese,请不要画鸟，只保留蓝色船和黄色太阳。,50,57,7,False,False,0
+S10_base,2026051801,zh,Chinese,红色伞在棕色长椅的上方，不要出现汽车。,53,60,7,False,False,0
+S10_base,2026051802,zh,Chinese,红色伞在棕色长椅的上方，不要出现汽车。,53,60,7,False,False,0
+S10_synonym,2026051801,zh,Chinese,请生成一张简洁图像：红色伞位于棕色长椅上面，不要出现汽车。,80,87,7,True,True,10
+S10_synonym,2026051802,zh,Chinese,请生成一张简洁图像：红色伞位于棕色长椅上面，不要出现汽车。,80,87,7,True,True,10
+S10_word_order,2026051801,zh,Chinese,棕色长椅的旁边，在它的上方的是红色伞，不要出现汽车。,71,78,7,False,True,1
+S10_word_order,2026051802,zh,Chinese,棕色长椅的旁边，在它的上方的是红色伞，不要出现汽车。,71,78,7,False,True,1
+S10_attribute_swap,2026051801,zh,Chinese,棕色伞在红色长椅的上方，不要出现汽车。,53,60,7,False,False,0
+S10_attribute_swap,2026051802,zh,Chinese,棕色伞在红色长椅的上方，不要出现汽车。,53,60,7,False,False,0
+S10_negation_rephrase,2026051801,zh,Chinese,请不要画汽车，只保留红色伞和棕色长椅。,54,61,7,False,False,0
+S10_negation_rephrase,2026051802,zh,Chinese,请不要画汽车，只保留红色伞和棕色长椅。,54,61,7,False,False,0
+S01_base,2026051801,hi,Hindi,एक लाल कप एक नीली किताब के बाईं ओर है।,38,45,7,False,False,0
+S01_base,2026051802,hi,Hindi,एक लाल कप एक नीली किताब के बाईं ओर है।,38,45,7,False,False,0
+S01_synonym,2026051801,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक लाल कप एक नीली किताब के बाईं ओर है।,67,74,7,False,False,0
+S01_synonym,2026051802,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक लाल कप एक नीली किताब के बाईं ओर है।,67,74,7,False,False,0
+S01_word_order,2026051801,hi,Hindi,एक नीली किताब के बाईं ओर एक लाल कप है।,38,45,7,False,False,0
+S01_word_order,2026051802,hi,Hindi,एक नीली किताब के बाईं ओर एक लाल कप है।,38,45,7,False,False,0
+S01_attribute_swap,2026051801,hi,Hindi,एक नीला कप एक लाल किताब के बाईं ओर है।,38,45,7,False,False,0
+S01_attribute_swap,2026051802,hi,Hindi,एक नीला कप एक लाल किताब के बाईं ओर है।,38,45,7,False,False,0
+S02_base,2026051801,hi,Hindi,एक पीली गेंद एक हरा डिब्बा के दाईं ओर है।,42,49,7,False,False,0
+S02_base,2026051802,hi,Hindi,एक पीली गेंद एक हरा डिब्बा के दाईं ओर है।,42,49,7,False,False,0
+S02_synonym,2026051801,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक पीली गेंद एक हरा डिब्बा के दाईं ओर है।,71,78,7,False,True,1
+S02_synonym,2026051802,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक पीली गेंद एक हरा डिब्बा के दाईं ओर है।,71,78,7,False,True,1
+S02_word_order,2026051801,hi,Hindi,एक हरा डिब्बा के दाईं ओर एक पीली गेंद है।,42,49,7,False,False,0
+S02_word_order,2026051802,hi,Hindi,एक हरा डिब्बा के दाईं ओर एक पीली गेंद है।,42,49,7,False,False,0
+S02_attribute_swap,2026051801,hi,Hindi,एक हरी गेंद एक पीला डिब्बा के दाईं ओर है।,42,49,7,False,False,0
+S02_attribute_swap,2026051802,hi,Hindi,एक हरी गेंद एक पीला डिब्बा के दाईं ओर है।,42,49,7,False,False,0
+S03_base,2026051801,hi,Hindi,एक बैंगनी कुर्सी एक नारंगी मेज़ के ऊपर है।,45,52,7,False,False,0
+S03_base,2026051802,hi,Hindi,एक बैंगनी कुर्सी एक नारंगी मेज़ के ऊपर है।,45,52,7,False,False,0
+S03_synonym,2026051801,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक बैंगनी कुर्सी एक नारंगी मेज़ के ऊपर ओर है।,77,84,7,False,True,7
+S03_synonym,2026051802,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक बैंगनी कुर्सी एक नारंगी मेज़ के ऊपर ओर है।,77,84,7,False,True,7
+S03_word_order,2026051801,hi,Hindi,एक नारंगी मेज़ के ऊपर ओर एक बैंगनी कुर्सी है।,48,55,7,False,False,0
+S03_word_order,2026051802,hi,Hindi,एक नारंगी मेज़ के ऊपर ओर एक बैंगनी कुर्सी है।,48,55,7,False,False,0
+S03_attribute_swap,2026051801,hi,Hindi,एक नारंगी कुर्सी एक बैंगनी मेज़ के ऊपर है।,45,52,7,False,False,0
+S03_attribute_swap,2026051802,hi,Hindi,एक नारंगी कुर्सी एक बैंगनी मेज़ के ऊपर है।,45,52,7,False,False,0
+S04_base,2026051801,hi,Hindi,एक गुलाबी फूलदान एक काला लैंप के नीचे है।,44,51,7,False,False,0
+S04_base,2026051802,hi,Hindi,एक गुलाबी फूलदान एक काला लैंप के नीचे है।,44,51,7,False,False,0
+S04_synonym,2026051801,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक गुलाबी फूलदान एक काला लैंप के नीचे ओर है।,76,83,7,False,True,6
+S04_synonym,2026051802,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक गुलाबी फूलदान एक काला लैंप के नीचे ओर है।,76,83,7,False,True,6
+S04_word_order,2026051801,hi,Hindi,एक काला लैंप के नीचे ओर एक गुलाबी फूलदान है।,47,54,7,False,False,0
+S04_word_order,2026051802,hi,Hindi,एक काला लैंप के नीचे ओर एक गुलाबी फूलदान है।,47,54,7,False,False,0
+S04_attribute_swap,2026051801,hi,Hindi,एक काला फूलदान एक गुलाबी लैंप के नीचे है।,44,51,7,False,False,0
+S04_attribute_swap,2026051802,hi,Hindi,एक काला फूलदान एक गुलाबी लैंप के नीचे है।,44,51,7,False,False,0
+S05_base,2026051801,hi,Hindi,दो लाल सेब एक हरी नाशपाती के बाईं ओर हैं।,42,49,7,False,False,0
+S05_base,2026051802,hi,Hindi,दो लाल सेब एक हरी नाशपाती के बाईं ओर हैं।,42,49,7,False,False,0
+S05_synonym,2026051801,hi,Hindi,कृपया एक सरल चित्र बनाएं: दो लाल सेब एक हरी नाशपाती के बाईं ओर हैं।,71,78,7,False,True,1
+S05_synonym,2026051802,hi,Hindi,कृपया एक सरल चित्र बनाएं: दो लाल सेब एक हरी नाशपाती के बाईं ओर हैं।,71,78,7,False,True,1
+S05_word_order,2026051801,hi,Hindi,एक हरी नाशपाती के बाईं ओर दो लाल सेब हैं।,42,49,7,False,False,0
+S05_word_order,2026051802,hi,Hindi,एक हरी नाशपाती के बाईं ओर दो लाल सेब हैं।,42,49,7,False,False,0
+S05_attribute_swap,2026051801,hi,Hindi,दो हरे सेब एक लाल नाशपाती के बाईं ओर हैं।,42,49,7,False,False,0
+S05_attribute_swap,2026051802,hi,Hindi,दो हरे सेब एक लाल नाशपाती के बाईं ओर हैं।,42,49,7,False,False,0
+S05_quantity_shift,2026051801,hi,Hindi,एक लाल सेब एक हरी नाशपाती के बाईं ओर है।,41,48,7,False,False,0
+S05_quantity_shift,2026051802,hi,Hindi,एक लाल सेब एक हरी नाशपाती के बाईं ओर है।,41,48,7,False,False,0
+S06_base,2026051801,hi,Hindi,तीन नीले गुब्बारा एक पीला डिब्बा के दाईं ओर हैं।,48,55,7,False,False,0
+S06_base,2026051802,hi,Hindi,तीन नीले गुब्बारा एक पीला डिब्बा के दाईं ओर हैं।,48,55,7,False,False,0
+S06_synonym,2026051801,hi,Hindi,कृपया एक सरल चित्र बनाएं: तीन नीले गुब्बारा एक पीला डिब्बा के दाईं ओर हैं।,77,84,7,False,True,7
+S06_synonym,2026051802,hi,Hindi,कृपया एक सरल चित्र बनाएं: तीन नीले गुब्बारा एक पीला डिब्बा के दाईं ओर हैं।,77,84,7,False,True,7
+S06_word_order,2026051801,hi,Hindi,एक पीला डिब्बा के दाईं ओर तीन नीले गुब्बारा हैं।,48,55,7,False,False,0
+S06_word_order,2026051802,hi,Hindi,एक पीला डिब्बा के दाईं ओर तीन नीले गुब्बारा हैं।,48,55,7,False,False,0
+S06_attribute_swap,2026051801,hi,Hindi,तीन पीले गुब्बारा एक नीला डिब्बा के दाईं ओर हैं।,48,55,7,False,False,0
+S06_attribute_swap,2026051802,hi,Hindi,तीन पीले गुब्बारा एक नीला डिब्बा के दाईं ओर हैं।,48,55,7,False,False,0
+S06_quantity_shift,2026051801,hi,Hindi,दो नीले गुब्बारा एक पीला डिब्बा के दाईं ओर हैं।,47,54,7,False,False,0
+S06_quantity_shift,2026051802,hi,Hindi,दो नीले गुब्बारा एक पीला डिब्बा के दाईं ओर हैं।,47,54,7,False,False,0
+S07_base,2026051801,hi,Hindi,एक काली कार एक सफेद साइकिल के बाईं ओर है।,43,50,7,False,False,0
+S07_base,2026051802,hi,Hindi,एक काली कार एक सफेद साइकिल के बाईं ओर है।,43,50,7,False,False,0
+S07_synonym,2026051801,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक काली कार एक सफेद साइकिल के बाईं ओर है।,72,79,7,False,True,2
+S07_synonym,2026051802,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक काली कार एक सफेद साइकिल के बाईं ओर है।,72,79,7,False,True,2
+S07_word_order,2026051801,hi,Hindi,एक सफेद साइकिल के बाईं ओर एक काली कार है।,43,50,7,False,False,0
+S07_word_order,2026051802,hi,Hindi,एक सफेद साइकिल के बाईं ओर एक काली कार है।,43,50,7,False,False,0
+S07_attribute_swap,2026051801,hi,Hindi,एक सफेद कार एक काली साइकिल के बाईं ओर है।,43,50,7,False,False,0
+S07_attribute_swap,2026051802,hi,Hindi,एक सफेद कार एक काली साइकिल के बाईं ओर है।,43,50,7,False,False,0
+S08_base,2026051801,hi,Hindi,एक धूसर बिल्ली एक भूरा कुत्ता के ऊपर है।,45,52,7,False,False,0
+S08_base,2026051802,hi,Hindi,एक धूसर बिल्ली एक भूरा कुत्ता के ऊपर है।,45,52,7,False,False,0
+S08_synonym,2026051801,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक धूसर बिल्ली एक भूरा कुत्ता के ऊपर ओर है।,77,84,7,False,True,7
+S08_synonym,2026051802,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक धूसर बिल्ली एक भूरा कुत्ता के ऊपर ओर है।,77,84,7,False,True,7
+S08_word_order,2026051801,hi,Hindi,एक भूरा कुत्ता के ऊपर ओर एक धूसर बिल्ली है।,48,55,7,False,False,0
+S08_word_order,2026051802,hi,Hindi,एक भूरा कुत्ता के ऊपर ओर एक धूसर बिल्ली है।,48,55,7,False,False,0
+S08_attribute_swap,2026051801,hi,Hindi,एक भूरी बिल्ली एक धूसर कुत्ता के ऊपर है।,45,52,7,False,False,0
+S08_attribute_swap,2026051802,hi,Hindi,एक भूरी बिल्ली एक धूसर कुत्ता के ऊपर है।,45,52,7,False,False,0
+S09_base,2026051801,hi,Hindi,एक नीली नाव और एक पीला सूरज साथ दिखाई दें। पक्षी न दिखे।,59,66,7,False,False,0
+S09_base,2026051802,hi,Hindi,एक नीली नाव और एक पीला सूरज साथ दिखाई दें। पक्षी न दिखे।,59,66,7,False,False,0
+S09_synonym,2026051801,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक नीली नाव और एक पीला सूरज साथ दिखाई दें। पक्षी न दिखे।,88,95,7,True,True,18
+S09_synonym,2026051802,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक नीली नाव और एक पीला सूरज साथ दिखाई दें। पक्षी न दिखे।,88,95,7,True,True,18
+S09_word_order,2026051801,hi,Hindi,एक पीला सूरज के साथ एक नीली नाव दिखाई दे। पक्षी न दिखे।,56,63,7,False,False,0
+S09_word_order,2026051802,hi,Hindi,एक पीला सूरज के साथ एक नीली नाव दिखाई दे। पक्षी न दिखे।,56,63,7,False,False,0
+S09_attribute_swap,2026051801,hi,Hindi,एक पीली नाव और एक नीला सूरज साथ दिखाई दें। पक्षी न दिखे।,59,66,7,False,False,0
+S09_attribute_swap,2026051802,hi,Hindi,एक पीली नाव और एक नीला सूरज साथ दिखाई दें। पक्षी न दिखे।,59,66,7,False,False,0
+S09_negation_rephrase,2026051801,hi,Hindi,कृपया पक्षी न बनाएं; केवल एक नीली नाव और एक पीला सूरज रखें।,64,71,7,False,False,0
+S09_negation_rephrase,2026051802,hi,Hindi,कृपया पक्षी न बनाएं; केवल एक नीली नाव और एक पीला सूरज रखें।,64,71,7,False,False,0
+S10_base,2026051801,hi,Hindi,एक लाल छाता एक भूरी बेंच के ऊपर है। कार न दिखे।,50,57,7,False,False,0
+S10_base,2026051802,hi,Hindi,एक लाल छाता एक भूरी बेंच के ऊपर है। कार न दिखे।,50,57,7,False,False,0
+S10_synonym,2026051801,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक लाल छाता एक भूरी बेंच के ऊपर ओर है। कार न दिखे।,82,89,7,True,True,12
+S10_synonym,2026051802,hi,Hindi,कृपया एक सरल चित्र बनाएं: एक लाल छाता एक भूरी बेंच के ऊपर ओर है। कार न दिखे।,82,89,7,True,True,12
+S10_word_order,2026051801,hi,Hindi,एक भूरी बेंच के ऊपर ओर एक लाल छाता है। कार न दिखे।,53,60,7,False,False,0
+S10_word_order,2026051802,hi,Hindi,एक भूरी बेंच के ऊपर ओर एक लाल छाता है। कार न दिखे।,53,60,7,False,False,0
+S10_attribute_swap,2026051801,hi,Hindi,एक भूरा छाता एक लाल बेंच के ऊपर है। कार न दिखे।,50,57,7,False,False,0
+S10_attribute_swap,2026051802,hi,Hindi,एक भूरा छाता एक लाल बेंच के ऊपर है। कार न दिखे।,50,57,7,False,False,0
+S10_negation_rephrase,2026051801,hi,Hindi,कृपया कार न बनाएं; केवल एक लाल छाता और एक भूरी बेंच रखें।,63,70,7,False,False,0
+S10_negation_rephrase,2026051802,hi,Hindi,कृपया कार न बनाएं; केवल एक लाल छाता और एक भूरी बेंच रखें।,63,70,7,False,False,0
+S01_base,2026051801,es,Spanish,Una taza roja está a la izquierda de un libro azul.,21,27,6,False,False,0
+S01_base,2026051802,es,Spanish,Una taza roja está a la izquierda de un libro azul.,21,27,6,False,False,0
+S01_synonym,2026051801,es,Spanish,"Por favor, genera una imagen sencilla: Una taza roja está a la izquierda de un libro azul.",33,39,6,False,False,0
+S01_synonym,2026051802,es,Spanish,"Por favor, genera una imagen sencilla: Una taza roja está a la izquierda de un libro azul.",33,39,6,False,False,0
+S01_word_order,2026051801,es,Spanish,"A la izquierda de un libro azul, está una taza roja.",22,28,6,False,False,0
+S01_word_order,2026051802,es,Spanish,"A la izquierda de un libro azul, está una taza roja.",22,28,6,False,False,0
+S01_attribute_swap,2026051801,es,Spanish,Una taza azul está a la izquierda de un libro rojo.,21,27,6,False,False,0
+S01_attribute_swap,2026051802,es,Spanish,Una taza azul está a la izquierda de un libro rojo.,21,27,6,False,False,0
+S02_base,2026051801,es,Spanish,Una pelota amarilla está a la derecha de una caja verde.,19,25,6,False,False,0
+S02_base,2026051802,es,Spanish,Una pelota amarilla está a la derecha de una caja verde.,19,25,6,False,False,0
+S02_synonym,2026051801,es,Spanish,"Por favor, genera una imagen sencilla: Una pelota amarilla está a la derecha de una caja verde.",31,37,6,False,False,0
+S02_synonym,2026051802,es,Spanish,"Por favor, genera una imagen sencilla: Una pelota amarilla está a la derecha de una caja verde.",31,37,6,False,False,0
+S02_word_order,2026051801,es,Spanish,"A la derecha de una caja verde, está una pelota amarilla.",20,26,6,False,False,0
+S02_word_order,2026051802,es,Spanish,"A la derecha de una caja verde, está una pelota amarilla.",20,26,6,False,False,0
+S02_attribute_swap,2026051801,es,Spanish,Una pelota verde está a la derecha de una caja amarilla.,19,25,6,False,False,0
+S02_attribute_swap,2026051802,es,Spanish,Una pelota verde está a la derecha de una caja amarilla.,19,25,6,False,False,0
+S03_base,2026051801,es,Spanish,Una silla morada está encima de una mesa naranja.,17,23,6,False,False,0
+S03_base,2026051802,es,Spanish,Una silla morada está encima de una mesa naranja.,17,23,6,False,False,0
+S03_synonym,2026051801,es,Spanish,"Por favor, genera una imagen sencilla: Una silla morada está encima de una mesa naranja.",29,35,6,False,False,0
+S03_synonym,2026051802,es,Spanish,"Por favor, genera una imagen sencilla: Una silla morada está encima de una mesa naranja.",29,35,6,False,False,0
+S03_word_order,2026051801,es,Spanish,"Encima de una mesa naranja, está una silla morada.",18,24,6,False,False,0
+S03_word_order,2026051802,es,Spanish,"Encima de una mesa naranja, está una silla morada.",18,24,6,False,False,0
+S03_attribute_swap,2026051801,es,Spanish,Una silla naranja está encima de una mesa morada.,17,23,6,False,False,0
+S03_attribute_swap,2026051802,es,Spanish,Una silla naranja está encima de una mesa morada.,17,23,6,False,False,0
+S04_base,2026051801,es,Spanish,Un jarrón rosa está debajo de una lámpara negra.,20,26,6,False,False,0
+S04_base,2026051802,es,Spanish,Un jarrón rosa está debajo de una lámpara negra.,20,26,6,False,False,0
+S04_synonym,2026051801,es,Spanish,"Por favor, genera una imagen sencilla: Un jarrón rosa está debajo de una lámpara negra.",32,38,6,False,False,0
+S04_synonym,2026051802,es,Spanish,"Por favor, genera una imagen sencilla: Un jarrón rosa está debajo de una lámpara negra.",32,38,6,False,False,0
+S04_word_order,2026051801,es,Spanish,"Debajo de una lámpara negra, está un jarrón rosa.",21,27,6,False,False,0
+S04_word_order,2026051802,es,Spanish,"Debajo de una lámpara negra, está un jarrón rosa.",21,27,6,False,False,0
+S04_attribute_swap,2026051801,es,Spanish,Un jarrón negro está debajo de una lámpara rosa.,19,25,6,False,False,0
+S04_attribute_swap,2026051802,es,Spanish,Un jarrón negro está debajo de una lámpara rosa.,19,25,6,False,False,0
+S05_base,2026051801,es,Spanish,Dos manzanas roja están a la izquierda de una pera verde.,21,27,6,False,False,0
+S05_base,2026051802,es,Spanish,Dos manzanas roja están a la izquierda de una pera verde.,21,27,6,False,False,0
+S05_synonym,2026051801,es,Spanish,"Por favor, genera una imagen sencilla: Dos manzanas roja están a la izquierda de una pera verde.",33,39,6,False,False,0
+S05_synonym,2026051802,es,Spanish,"Por favor, genera una imagen sencilla: Dos manzanas roja están a la izquierda de una pera verde.",33,39,6,False,False,0
+S05_word_order,2026051801,es,Spanish,"A la izquierda de una pera verde, están dos manzanas roja.",22,28,6,False,False,0
+S05_word_order,2026051802,es,Spanish,"A la izquierda de una pera verde, están dos manzanas roja.",22,28,6,False,False,0
+S05_attribute_swap,2026051801,es,Spanish,Dos manzanas verde están a la izquierda de una pera roja.,21,27,6,False,False,0
+S05_attribute_swap,2026051802,es,Spanish,Dos manzanas verde están a la izquierda de una pera roja.,21,27,6,False,False,0
+S05_quantity_shift,2026051801,es,Spanish,Una manzana roja está a la izquierda de una pera verde.,20,26,6,False,False,0
+S05_quantity_shift,2026051802,es,Spanish,Una manzana roja está a la izquierda de una pera verde.,20,26,6,False,False,0
+S06_base,2026051801,es,Spanish,Tres globos azul están a la derecha de una caja amarilla.,19,25,6,False,False,0
+S06_base,2026051802,es,Spanish,Tres globos azul están a la derecha de una caja amarilla.,19,25,6,False,False,0
+S06_synonym,2026051801,es,Spanish,"Por favor, genera una imagen sencilla: Tres globos azul están a la derecha de una caja amarilla.",31,37,6,False,False,0
+S06_synonym,2026051802,es,Spanish,"Por favor, genera una imagen sencilla: Tres globos azul están a la derecha de una caja amarilla.",31,37,6,False,False,0
+S06_word_order,2026051801,es,Spanish,"A la derecha de una caja amarilla, están tres globos azul.",20,26,6,False,False,0
+S06_word_order,2026051802,es,Spanish,"A la derecha de una caja amarilla, están tres globos azul.",20,26,6,False,False,0
+S06_attribute_swap,2026051801,es,Spanish,Tres globos amarillo están a la derecha de una caja azul.,18,24,6,False,False,0
+S06_attribute_swap,2026051802,es,Spanish,Tres globos amarillo están a la derecha de una caja azul.,18,24,6,False,False,0
+S06_quantity_shift,2026051801,es,Spanish,Dos globos azul están a la derecha de una caja amarilla.,19,25,6,False,False,0
+S06_quantity_shift,2026051802,es,Spanish,Dos globos azul están a la derecha de una caja amarilla.,19,25,6,False,False,0
+S07_base,2026051801,es,Spanish,Un coche negro está a la izquierda de una bicicleta blanca.,21,27,6,False,False,0
+S07_base,2026051802,es,Spanish,Un coche negro está a la izquierda de una bicicleta blanca.,21,27,6,False,False,0
+S07_synonym,2026051801,es,Spanish,"Por favor, genera una imagen sencilla: Un coche negro está a la izquierda de una bicicleta blanca.",33,39,6,False,False,0
+S07_synonym,2026051802,es,Spanish,"Por favor, genera una imagen sencilla: Un coche negro está a la izquierda de una bicicleta blanca.",33,39,6,False,False,0
+S07_word_order,2026051801,es,Spanish,"A la izquierda de una bicicleta blanca, está un coche negro.",22,28,6,False,False,0
+S07_word_order,2026051802,es,Spanish,"A la izquierda de una bicicleta blanca, está un coche negro.",22,28,6,False,False,0
+S07_attribute_swap,2026051801,es,Spanish,Un coche blanco está a la izquierda de una bicicleta negra.,22,28,6,False,False,0
+S07_attribute_swap,2026051802,es,Spanish,Un coche blanco está a la izquierda de una bicicleta negra.,22,28,6,False,False,0
+S08_base,2026051801,es,Spanish,Un gato gris está encima de un perro marrón.,17,23,6,False,False,0
+S08_base,2026051802,es,Spanish,Un gato gris está encima de un perro marrón.,17,23,6,False,False,0
+S08_synonym,2026051801,es,Spanish,"Por favor, genera una imagen sencilla: Un gato gris está encima de un perro marrón.",29,35,6,False,False,0
+S08_synonym,2026051802,es,Spanish,"Por favor, genera una imagen sencilla: Un gato gris está encima de un perro marrón.",29,35,6,False,False,0
+S08_word_order,2026051801,es,Spanish,"Encima de un perro marrón, está un gato gris.",18,24,6,False,False,0
+S08_word_order,2026051802,es,Spanish,"Encima de un perro marrón, está un gato gris.",18,24,6,False,False,0
+S08_attribute_swap,2026051801,es,Spanish,Un gato marrón está encima de un perro gris.,17,23,6,False,False,0
+S08_attribute_swap,2026051802,es,Spanish,Un gato marrón está encima de un perro gris.,17,23,6,False,False,0
+S09_base,2026051801,es,Spanish,"Un barco azul y un sol amarillo aparecen juntos, sin un pájaro.",22,28,6,False,False,0
+S09_base,2026051802,es,Spanish,"Un barco azul y un sol amarillo aparecen juntos, sin un pájaro.",22,28,6,False,False,0
+S09_synonym,2026051801,es,Spanish,"Por favor, genera una imagen sencilla: Un barco azul y un sol amarillo aparecen juntos, sin un pájaro.",34,40,6,False,False,0
+S09_synonym,2026051802,es,Spanish,"Por favor, genera una imagen sencilla: Un barco azul y un sol amarillo aparecen juntos, sin un pájaro.",34,40,6,False,False,0
+S09_word_order,2026051801,es,Spanish,"Junto con un sol amarillo, aparece un barco azul, sin un pájaro.",22,28,6,False,False,0
+S09_word_order,2026051802,es,Spanish,"Junto con un sol amarillo, aparece un barco azul, sin un pájaro.",22,28,6,False,False,0
+S09_attribute_swap,2026051801,es,Spanish,"Un barco amarillo y un sol azul aparecen juntos, sin un pájaro.",22,28,6,False,False,0
+S09_attribute_swap,2026051802,es,Spanish,"Un barco amarillo y un sol azul aparecen juntos, sin un pájaro.",22,28,6,False,False,0
+S09_negation_rephrase,2026051801,es,Spanish,"Por favor, no dibujes un pájaro; conserva solo Un barco azul y Un sol amarillo.",26,32,6,False,False,0
+S09_negation_rephrase,2026051802,es,Spanish,"Por favor, no dibujes un pájaro; conserva solo Un barco azul y Un sol amarillo.",26,32,6,False,False,0
+S10_base,2026051801,es,Spanish,"Un paraguas rojo está encima de un banco marrón, sin un coche.",24,30,6,False,False,0
+S10_base,2026051802,es,Spanish,"Un paraguas rojo está encima de un banco marrón, sin un coche.",24,30,6,False,False,0
+S10_synonym,2026051801,es,Spanish,"Por favor, genera una imagen sencilla: Un paraguas rojo está encima de un banco marrón, sin un coche.",36,42,6,False,False,0
+S10_synonym,2026051802,es,Spanish,"Por favor, genera una imagen sencilla: Un paraguas rojo está encima de un banco marrón, sin un coche.",36,42,6,False,False,0
+S10_word_order,2026051801,es,Spanish,"Encima de un banco marrón, está un paraguas rojo, sin un coche.",25,31,6,False,False,0
+S10_word_order,2026051802,es,Spanish,"Encima de un banco marrón, está un paraguas rojo, sin un coche.",25,31,6,False,False,0
+S10_attribute_swap,2026051801,es,Spanish,"Un paraguas marrón está encima de un banco rojo, sin un coche.",24,30,6,False,False,0
+S10_attribute_swap,2026051802,es,Spanish,"Un paraguas marrón está encima de un banco rojo, sin un coche.",24,30,6,False,False,0
+S10_negation_rephrase,2026051801,es,Spanish,"Por favor, no dibujes un coche; conserva solo Un paraguas rojo y Un banco marrón.",29,35,6,False,False,0
+S10_negation_rephrase,2026051802,es,Spanish,"Por favor, no dibujes un coche; conserva solo Un paraguas rojo y Un banco marrón.",29,35,6,False,False,0
+S01_base,2026051801,fr,French,Une tasse rouge est à gauche de un livre bleu.,16,22,6,False,False,0
+S01_base,2026051802,fr,French,Une tasse rouge est à gauche de un livre bleu.,16,22,6,False,False,0
+S01_synonym,2026051801,fr,French,Veuillez générer une image simple : Une tasse rouge est à gauche de un livre bleu.,29,35,6,False,False,0
+S01_synonym,2026051802,fr,French,Veuillez générer une image simple : Une tasse rouge est à gauche de un livre bleu.,29,35,6,False,False,0
+S01_word_order,2026051801,fr,French,"À gauche de un livre bleu, il y a une tasse rouge.",19,25,6,False,False,0
+S01_word_order,2026051802,fr,French,"À gauche de un livre bleu, il y a une tasse rouge.",19,25,6,False,False,0
+S01_attribute_swap,2026051801,fr,French,Une tasse bleue est à gauche de un livre rouge.,17,23,6,False,False,0
+S01_attribute_swap,2026051802,fr,French,Une tasse bleue est à gauche de un livre rouge.,17,23,6,False,False,0
+S02_base,2026051801,fr,French,Une balle jaune est à droite de une boîte verte.,19,25,6,False,False,0
+S02_base,2026051802,fr,French,Une balle jaune est à droite de une boîte verte.,19,25,6,False,False,0
+S02_synonym,2026051801,fr,French,Veuillez générer une image simple : Une balle jaune est à droite de une boîte verte.,32,38,6,False,False,0
+S02_synonym,2026051802,fr,French,Veuillez générer une image simple : Une balle jaune est à droite de une boîte verte.,32,38,6,False,False,0
+S02_word_order,2026051801,fr,French,"À droite de une boîte verte, il y a une balle jaune.",22,28,6,False,False,0
+S02_word_order,2026051802,fr,French,"À droite de une boîte verte, il y a une balle jaune.",22,28,6,False,False,0
+S02_attribute_swap,2026051801,fr,French,Une balle verte est à droite de une boîte jaune.,19,25,6,False,False,0
+S02_attribute_swap,2026051802,fr,French,Une balle verte est à droite de une boîte jaune.,19,25,6,False,False,0
+S03_base,2026051801,fr,French,Une chaise violette est au-dessus de une table orange.,17,23,6,False,False,0
+S03_base,2026051802,fr,French,Une chaise violette est au-dessus de une table orange.,17,23,6,False,False,0
+S03_synonym,2026051801,fr,French,Veuillez générer une image simple : Une chaise violette est au-dessus de une table orange.,30,36,6,False,False,0
+S03_synonym,2026051802,fr,French,Veuillez générer une image simple : Une chaise violette est au-dessus de une table orange.,30,36,6,False,False,0
+S03_word_order,2026051801,fr,French,"Au-dessus de une table orange, il y a une chaise violette.",20,26,6,False,False,0
+S03_word_order,2026051802,fr,French,"Au-dessus de une table orange, il y a une chaise violette.",20,26,6,False,False,0
+S03_attribute_swap,2026051801,fr,French,Une chaise orange est au-dessus de une table violette.,17,23,6,False,False,0
+S03_attribute_swap,2026051802,fr,French,Une chaise orange est au-dessus de une table violette.,17,23,6,False,False,0
+S04_base,2026051801,fr,French,Un vase rose est au-dessous de une lampe noire.,17,23,6,False,False,0
+S04_base,2026051802,fr,French,Un vase rose est au-dessous de une lampe noire.,17,23,6,False,False,0
+S04_synonym,2026051801,fr,French,Veuillez générer une image simple : Un vase rose est au-dessous de une lampe noire.,30,36,6,False,False,0
+S04_synonym,2026051802,fr,French,Veuillez générer une image simple : Un vase rose est au-dessous de une lampe noire.,30,36,6,False,False,0
+S04_word_order,2026051801,fr,French,"Au-dessous de une lampe noire, il y a un vase rose.",20,26,6,False,False,0
+S04_word_order,2026051802,fr,French,"Au-dessous de une lampe noire, il y a un vase rose.",20,26,6,False,False,0
+S04_attribute_swap,2026051801,fr,French,Un vase noir est au-dessous de une lampe rose.,16,22,6,False,False,0
+S04_attribute_swap,2026051802,fr,French,Un vase noir est au-dessous de une lampe rose.,16,22,6,False,False,0
+S05_base,2026051801,fr,French,Deux pommes rouge sont à gauche de une poire verte.,17,23,6,False,False,0
+S05_base,2026051802,fr,French,Deux pommes rouge sont à gauche de une poire verte.,17,23,6,False,False,0
+S05_synonym,2026051801,fr,French,Veuillez générer une image simple : Deux pommes rouge sont à gauche de une poire verte.,30,36,6,False,False,0
+S05_synonym,2026051802,fr,French,Veuillez générer une image simple : Deux pommes rouge sont à gauche de une poire verte.,30,36,6,False,False,0
+S05_word_order,2026051801,fr,French,"À gauche de une poire verte, il y a deux pommes rouge.",20,26,6,False,False,0
+S05_word_order,2026051802,fr,French,"À gauche de une poire verte, il y a deux pommes rouge.",20,26,6,False,False,0
+S05_attribute_swap,2026051801,fr,French,Deux pommes verte sont à gauche de une poire rouge.,17,23,6,False,False,0
+S05_attribute_swap,2026051802,fr,French,Deux pommes verte sont à gauche de une poire rouge.,17,23,6,False,False,0
+S05_quantity_shift,2026051801,fr,French,Une pomme rouge est à gauche de une poire verte.,17,23,6,False,False,0
+S05_quantity_shift,2026051802,fr,French,Une pomme rouge est à gauche de une poire verte.,17,23,6,False,False,0
+S06_base,2026051801,fr,French,Trois ballons bleu sont à droite de une boîte jaune.,19,25,6,False,False,0
+S06_base,2026051802,fr,French,Trois ballons bleu sont à droite de une boîte jaune.,19,25,6,False,False,0
+S06_synonym,2026051801,fr,French,Veuillez générer une image simple : Trois ballons bleu sont à droite de une boîte jaune.,32,38,6,False,False,0
+S06_synonym,2026051802,fr,French,Veuillez générer une image simple : Trois ballons bleu sont à droite de une boîte jaune.,32,38,6,False,False,0
+S06_word_order,2026051801,fr,French,"À droite de une boîte jaune, il y a trois ballons bleu.",22,28,6,False,False,0
+S06_word_order,2026051802,fr,French,"À droite de une boîte jaune, il y a trois ballons bleu.",22,28,6,False,False,0
+S06_attribute_swap,2026051801,fr,French,Trois ballons jaune sont à droite de une boîte bleue.,20,26,6,False,False,0
+S06_attribute_swap,2026051802,fr,French,Trois ballons jaune sont à droite de une boîte bleue.,20,26,6,False,False,0
+S06_quantity_shift,2026051801,fr,French,Deux ballons bleu sont à droite de une boîte jaune.,18,24,6,False,False,0
+S06_quantity_shift,2026051802,fr,French,Deux ballons bleu sont à droite de une boîte jaune.,18,24,6,False,False,0
+S07_base,2026051801,fr,French,Une voiture noire est à gauche de un vélo blanc.,18,24,6,False,False,0
+S07_base,2026051802,fr,French,Une voiture noire est à gauche de un vélo blanc.,18,24,6,False,False,0
+S07_synonym,2026051801,fr,French,Veuillez générer une image simple : Une voiture noire est à gauche de un vélo blanc.,31,37,6,False,False,0
+S07_synonym,2026051802,fr,French,Veuillez générer une image simple : Une voiture noire est à gauche de un vélo blanc.,31,37,6,False,False,0
+S07_word_order,2026051801,fr,French,"À gauche de un vélo blanc, il y a une voiture noire.",21,27,6,False,False,0
+S07_word_order,2026051802,fr,French,"À gauche de un vélo blanc, il y a une voiture noire.",21,27,6,False,False,0
+S07_attribute_swap,2026051801,fr,French,Une voiture blanche est à gauche de un vélo noir.,17,23,6,False,False,0
+S07_attribute_swap,2026051802,fr,French,Une voiture blanche est à gauche de un vélo noir.,17,23,6,False,False,0
+S08_base,2026051801,fr,French,Un chat gris est au-dessus de un chien marron.,17,23,6,False,False,0
+S08_base,2026051802,fr,French,Un chat gris est au-dessus de un chien marron.,17,23,6,False,False,0
+S08_synonym,2026051801,fr,French,Veuillez générer une image simple : Un chat gris est au-dessus de un chien marron.,30,36,6,False,False,0
+S08_synonym,2026051802,fr,French,Veuillez générer une image simple : Un chat gris est au-dessus de un chien marron.,30,36,6,False,False,0
+S08_word_order,2026051801,fr,French,"Au-dessus de un chien marron, il y a un chat gris.",20,26,6,False,False,0
+S08_word_order,2026051802,fr,French,"Au-dessus de un chien marron, il y a un chat gris.",20,26,6,False,False,0
+S08_attribute_swap,2026051801,fr,French,Un chat marron est au-dessus de un chien gris.,17,23,6,False,False,0
+S08_attribute_swap,2026051802,fr,French,Un chat marron est au-dessus de un chien gris.,17,23,6,False,False,0
+S09_base,2026051801,fr,French,"Un bateau bleu et un soleil jaune apparaissent ensemble, sans un oiseau.",22,28,6,False,False,0
+S09_base,2026051802,fr,French,"Un bateau bleu et un soleil jaune apparaissent ensemble, sans un oiseau.",22,28,6,False,False,0
+S09_synonym,2026051801,fr,French,"Veuillez générer une image simple : Un bateau bleu et un soleil jaune apparaissent ensemble, sans un oiseau.",35,41,6,False,False,0
+S09_synonym,2026051802,fr,French,"Veuillez générer une image simple : Un bateau bleu et un soleil jaune apparaissent ensemble, sans un oiseau.",35,41,6,False,False,0
+S09_word_order,2026051801,fr,French,"Avec un soleil jaune, apparaît un bateau bleu, sans un oiseau.",23,29,6,False,False,0
+S09_word_order,2026051802,fr,French,"Avec un soleil jaune, apparaît un bateau bleu, sans un oiseau.",23,29,6,False,False,0
+S09_attribute_swap,2026051801,fr,French,"Un bateau jaune et un soleil bleu apparaissent ensemble, sans un oiseau.",22,28,6,False,False,0
+S09_attribute_swap,2026051802,fr,French,"Un bateau jaune et un soleil bleu apparaissent ensemble, sans un oiseau.",22,28,6,False,False,0
+S09_negation_rephrase,2026051801,fr,French,Veuillez ne pas dessiner un oiseau; gardez seulement Un bateau bleu et Un soleil jaune.,30,36,6,False,False,0
+S09_negation_rephrase,2026051802,fr,French,Veuillez ne pas dessiner un oiseau; gardez seulement Un bateau bleu et Un soleil jaune.,30,36,6,False,False,0
+S10_base,2026051801,fr,French,"Un parapluie rouge est au-dessus de un banc marron, sans une voiture.",24,30,6,False,False,0
+S10_base,2026051802,fr,French,"Un parapluie rouge est au-dessus de un banc marron, sans une voiture.",24,30,6,False,False,0
+S10_synonym,2026051801,fr,French,"Veuillez générer une image simple : Un parapluie rouge est au-dessus de un banc marron, sans une voiture.",37,43,6,False,False,0
+S10_synonym,2026051802,fr,French,"Veuillez générer une image simple : Un parapluie rouge est au-dessus de un banc marron, sans une voiture.",37,43,6,False,False,0
+S10_word_order,2026051801,fr,French,"Au-dessus de un banc marron, il y a un parapluie rouge, sans une voiture.",27,33,6,False,False,0
+S10_word_order,2026051802,fr,French,"Au-dessus de un banc marron, il y a un parapluie rouge, sans une voiture.",27,33,6,False,False,0
+S10_attribute_swap,2026051801,fr,French,"Un parapluie marron est au-dessus de un banc rouge, sans une voiture.",24,30,6,False,False,0
+S10_attribute_swap,2026051802,fr,French,"Un parapluie marron est au-dessus de un banc rouge, sans une voiture.",24,30,6,False,False,0
+S10_negation_rephrase,2026051801,fr,French,Veuillez ne pas dessiner une voiture; gardez seulement Un parapluie rouge et Un banc marron.,31,37,6,False,False,0
+S10_negation_rephrase,2026051802,fr,French,Veuillez ne pas dessiner une voiture; gardez seulement Un parapluie rouge et Un banc marron.,31,37,6,False,False,0

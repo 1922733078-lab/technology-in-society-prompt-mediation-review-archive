@@ -1,0 +1,26 @@
+Create a clean academic conceptual diagram for a Technology in Society journal paper.
+
+Canvas: white background, landscape 4:3, publication-ready, crisp vector-like layout, no decorative background, no photos, no icons that look childish.
+
+Title at top, exact text:
+Prompt Mediation and Creative Control
+
+Main horizontal chain with five rounded rectangles connected by arrows:
+1. Submitted prompt
+2. Text encoder
+3. System rewrite
+4. Metadata
+5. Creative control
+
+Under the chain, add three thin evidence bands with exact short labels:
+Drift metrics
+Revised prompts
+Schema fields
+
+Design constraints:
+- Use only the exact text labels above; do not add paragraphs.
+- Keep all text large, black, and correctly spelled.
+- Use a restrained scholarly color palette: blue, teal, orange, purple, and gray.
+- Align boxes evenly, leave generous spacing, no overlapping text or arrows.
+- Make it look like a mature empirical mechanism figure, not a marketing graphic.
+- The caption is not part of the image, so do not add any caption text.
