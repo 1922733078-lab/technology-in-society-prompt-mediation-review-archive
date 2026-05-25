@@ -48,14 +48,11 @@ Every sidecar JSON preserves the submitted prompt, `revised_prompt`, language, s
 
 The sidecar evidence supports the narrower mediation claim: submitted prompts were not passed through as bare text. They were consistently rewritten into more explicit scene instructions, with relation clarification, detail expansion, and frequent composition/background/style specifications. The rewritten prompts were often English-like, but not always; several Chinese, Hindi, Spanish, and French cases preserved or mixed the submitted language while still adding scene-planning instructions.
 
-## Light Visual Review
+## Material Traceability Check
 
-The contact sheet was inspected as a lightweight consistency check, not as a formal semantic benchmark.
+The contact sheet is retained as a material traceability check, not as a formal semantic benchmark. It shows that the sidecar metadata belonged to completed image-generation requests and lets readers inspect representative files. The manuscript does not use this sheet to report an API-side visual conformance rate or to compare GPT-image-2 visually against the tested Qwen-compatible endpoint.
 
-- Strict visual match: 59/60
-- Partial relation case: `S10_base_es`
-
-The partial case contains the red umbrella, brown bench, and no car, but the umbrella rests against/over the bench rather than forming a clean "above" relation. This is retained as a limitation. Other images were visually consistent with the target objects, colors, counts, relations, and negation constraints at contact-sheet resolution.
+One retained note concerns `S10_base_es`: the file contains the red umbrella, brown bench, and no car, but the umbrella rests against/over the bench rather than forming a clean "above" relation. This observation is retained as a material inspection note only; no aggregate visual score is reported.
 
 ## Representative Cases
 
@@ -77,13 +74,13 @@ The partial case contains the red umbrella, brown bench, and no car, but the umb
 4. `S10_base_es`
    - Submitted: Spanish prompt for a red umbrella above a brown bench, with no car.
    - Revised prompt specifies an outdoor realistic scene with no car and clear composition.
-   - Visual note: absence is satisfied, but the spatial relation is partial. This prevents overstating image-level compliance.
+   - Visual note: absence is satisfied, but the spatial relation is partial. This illustrates why the contact sheet is not used as a formal semantic benchmark.
 
 ## Conservative Manuscript Wording
 
 Suggested paragraph:
 
-> To address the limited scale of the initial GPT-image-2 probe, we expanded the mechanism probe to 60 images: 12 representative prompt units from the original multilingual prompt inventory, each generated in English, Chinese, Hindi, Spanish, and French. The 12 units cover all 10 base scene IDs and add quantity-shift and explicit-negation variants. We do not interpret this as a general GPT-image-2 capability benchmark. Instead, we use the saved sidecar metadata to examine whether submitted prompts are mediated by an API/model-side rewriting layer before image synthesis. All 60 requests had a saved `revised_prompt`; the revised prompts consistently added relation clarification and scene/detail expansion, and frequently added composition, background, and style specifications. A lightweight contact-sheet review found 59 of 60 images visually consistent with the target object/color/count/relation constraints, with one partial spatial-relation case. These findings support the narrower claim that prompt rewriting functions as a mediation layer in this workflow, while broader claims about GPT-image-2 multilingual capability remain outside the scope of this study.
+> To address the limited scale of the initial GPT-image-2 probe, we expanded the mechanism probe to 60 images: 12 representative prompt units from the original multilingual prompt inventory, each generated in English, Chinese, Hindi, Spanish, and French. The 12 units cover all 10 base scene IDs and add quantity-shift and explicit-negation variants. We do not interpret this as a general GPT-image-2 capability benchmark. Instead, we use the saved sidecar metadata to examine whether submitted prompts are mediated by an API/model-side rewriting layer before image synthesis. All 60 requests had a saved `revised_prompt`; the revised prompts consistently added relation clarification and scene/detail expansion, and frequently added composition, background, and style specifications. The contact sheet is used only as a material traceability check for completed image requests. These findings support the narrower claim that prompt rewriting functions as a mediation layer in this workflow, while broader claims about GPT-image-2 multilingual capability remain outside the scope of this study.
 
 Suggested limitation sentence:
 
