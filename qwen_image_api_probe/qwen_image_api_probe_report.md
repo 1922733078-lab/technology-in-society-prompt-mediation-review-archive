@@ -1,8 +1,8 @@
-# Qwen-Image API Mechanism Probe Report
+# Tested Qwen-Compatible Endpoint Mechanism Probe Report
 
 ## Scope
 
-This is a third-platform/model-ecosystem prompt mediation probe, not a Qwen-Image benchmark.
+This is a third-platform/model-ecosystem prompt mediation probe through a tested Qwen-Image-compatible endpoint. It is not a Qwen-Image benchmark.
 
 ## Design
 
@@ -34,7 +34,7 @@ This is a third-platform/model-ecosystem prompt mediation probe, not a Qwen-Imag
 
 The endpoint consistently returned `metadata.output.results[0].orig_prompt`, and returned a `data[0].revised_prompt` field that was empty in all generated records. No non-empty `revised_prompt`, `actual_prompt`, or `prompt_extend` field was observed in this 60-request run.
 
-This does not imply that Qwen-Image internally lacks prompt rewriting. It means this OpenAI-compatible endpoint did not expose a non-empty prompt-transformation layer in the returned metadata.
+This does not imply that Qwen-Image internally lacks prompt rewriting. It means this tested OpenAI-compatible endpoint did not expose a non-empty prompt-transformation layer in the returned metadata.
 
 ## By Language
 
@@ -69,4 +69,4 @@ A contact sheet was generated at `qwen_image_api_contact_sheet.png`. Light obser
 
 ## Conservative Paper Wording
 
-> In a third platform probe using Qwen-Image through an OpenAI-compatible image endpoint, we generated the same 60-request multilingual prompt set used for the GPT-image-2 mechanism probe. The Qwen-Image endpoint returned successful images and exposed the submitted prompt as `orig_prompt` in response metadata, but it did not expose a non-empty rewritten prompt, `actual_prompt`, or `prompt_extend` field in this run. This contrasts with GPT-image-2, where non-empty `revised_prompt` fields were saved for every request. We interpret this only as a difference in exposed metadata and mediation observability, not as evidence that Qwen-Image internally lacks prompt rewriting.
+> In a third platform probe through a tested OpenAI-compatible image endpoint using model name `Qwen-Image`, we generated the same 60-request multilingual prompt set used for the GPT-image-2 mechanism probe. The tested endpoint returned successful images and exposed the submitted prompt as `orig_prompt` in response metadata, but it did not expose a non-empty rewritten prompt, `actual_prompt`, or `prompt_extend` field in this run. This contrasts with GPT-image-2, where non-empty `revised_prompt` fields were saved for every request. We interpret this only as a difference in exposed metadata and mediation observability, not as evidence that Qwen-Image internally lacks prompt rewriting.
